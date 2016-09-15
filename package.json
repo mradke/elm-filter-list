@@ -1,0 +1,16 @@
+{
+  "name": "list-filter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "counter.js",
+  "scripts": {
+    "watch": "chokidar '**/*.elm' -c 'elm make src/ListFilter.elm --output filter.js' --initial",
+    "sync": "browser-sync start --server './' --files './*'",
+    "dev": "npm run sync | npm run watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chokidar": "^1.6.0"
+  }
+}
