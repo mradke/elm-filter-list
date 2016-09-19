@@ -12,7 +12,7 @@ import Http
 main : Program Model
 main
   = App.programWithFlags
-    { init = \flags -> (flags, Cmd.none)
+    { init = \flags -> (flags, fetchData)
     , view = view
     , update = update
     , subscriptions = subscriptions
@@ -31,10 +31,6 @@ type alias Model =
   , message : String
   }
 
-init : (Model, Cmd Msg)
-init = ({herbs = [], filterBy = "", message = ""}, Cmd.none)
-
-
 -- UPDATE
 
 type Msg
@@ -42,6 +38,8 @@ type Msg
   | NewFilter String
   | Init Model
   | FetchData
+  | ErrorOccurred String
+  | DataFetched (List HerbDescription)
 
 port syncmap : Model -> Cmd msg
 
@@ -58,9 +56,19 @@ update msg model =
 
     Init initModel ->
       (initModel, Cmd.none)
-
+    
     FetchData ->
-      let newModel =  { model | message = "test" }
+      let newModel = { model | message = "Initiating fetch" }
+      in
+        (newModel, Cmd.none)
+
+    ErrorOccurred errorMessage ->
+      let newModel = { model | message = "Error: " ++ errorMessage }
+      in
+        (newModel, Cmd.none)
+
+    DataFetched newHerbs ->
+      let newModel = { model | herbs = newHerbs }
       in
         (newModel, Cmd.none)
 
@@ -78,7 +86,8 @@ view : Model -> Html Msg
 view model =
   let
     herbs =
-      List.map viewHerbDescription (List.filterMap (removeUnmatched model.filterBy) model.herbs)
+      List.map viewHerbDescription
+        <| List.filterMap (removeUnmatched <| String.toLower model.filterBy) model.herbs
   in
     div []
       [ input [ placeholder "Filter", onInput NewFilter ] []
@@ -87,12 +96,16 @@ view model =
 
 removeUnmatched : String -> HerbDescription -> Maybe HerbDescription
 removeUnmatched fltr desc =
-  if contains fltr desc.latin then
-    Just desc
-  else if contains fltr desc.english then
-    Just desc
-  else
-    Nothing
+  let
+      latin = String.toLower desc.latin
+      english = String.toLower desc.english
+  in
+    if contains fltr latin then
+      Just desc
+    else if contains fltr english then
+      Just desc
+    else
+      Nothing
 
 viewHerbDescription : HerbDescription -> Html Msg
 viewHerbDescription model =
@@ -101,7 +114,7 @@ viewHerbDescription model =
     , text model.english
     ]
 
--- HTTP CALLS AND DECODER
+-- HTTP CALL AND DECODERS
 
 herbDateDecoder : Json.Decoder HerbDescription
 herbDateDecoder =
@@ -116,6 +129,6 @@ herbListDecoder =
 
 fetchData : Cmd Msg
 fetchData =
-  Http.get herbListDecoder "http://0.0.0.0:3020/herbs"
+  Http.get herbListDecoder "http://0.0.0.0:3000/herbs"
     |> Task.mapError toString
     |> Task.perform ErrorOccurred DataFetched
