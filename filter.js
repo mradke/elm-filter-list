@@ -7755,14 +7755,12 @@ var _user$project$ListFilter$viewHerbDescription = function (model) {
 			[
 				_elm_lang$html$Html$text(
 				A2(_elm_lang$core$Basics_ops['++'], model.latin, ' - ')),
-				_elm_lang$html$Html$text(
-				A2(_elm_lang$core$Basics_ops['++'], model.german, ' - ')),
 				_elm_lang$html$Html$text(model.english)
 			]));
 };
 var _user$project$ListFilter$removeUnmatched = F2(
 	function (fltr, desc) {
-		return A2(_elm_lang$core$String$contains, fltr, desc.latin) ? _elm_lang$core$Maybe$Just(desc) : _elm_lang$core$Maybe$Nothing;
+		return A2(_elm_lang$core$String$contains, fltr, desc.latin) ? _elm_lang$core$Maybe$Just(desc) : (A2(_elm_lang$core$String$contains, fltr, desc.english) ? _elm_lang$core$Maybe$Just(desc) : _elm_lang$core$Maybe$Nothing);
 	});
 var _user$project$ListFilter$subscriptions = function (model) {
 	return _elm_lang$core$Platform_Sub$none;
@@ -7778,8 +7776,13 @@ var _user$project$ListFilter$update = F2(
 					model,
 					{filterBy: _p0._0});
 				return {ctor: '_Tuple2', _0: newModel, _1: _elm_lang$core$Platform_Cmd$none};
-			default:
+			case 'Init':
 				return {ctor: '_Tuple2', _0: _p0._0, _1: _elm_lang$core$Platform_Cmd$none};
+			default:
+				var newModel = _elm_lang$core$Native_Utils.update(
+					model,
+					{message: 'test'});
+				return {ctor: '_Tuple2', _0: newModel, _1: _elm_lang$core$Platform_Cmd$none};
 		}
 	});
 var _user$project$ListFilter$init = {
@@ -7787,7 +7790,8 @@ var _user$project$ListFilter$init = {
 	_0: {
 		herbs: _elm_lang$core$Native_List.fromArray(
 			[]),
-		filterBy: ''
+		filterBy: '',
+		message: ''
 	},
 	_1: _elm_lang$core$Platform_Cmd$none
 };
@@ -7797,9 +7801,10 @@ var _user$project$ListFilter$syncmap = _elm_lang$core$Native_Platform.outgoingPo
 		return {
 			herbs: _elm_lang$core$Native_List.toArray(v.herbs).map(
 				function (v) {
-					return {latin: v.latin, german: v.german, english: v.english};
+					return {latin: v.latin, english: v.english};
 				}),
-			filterBy: v.filterBy
+			filterBy: v.filterBy,
+			message: v.message
 		};
 	});
 var _user$project$ListFilter$getInitValue = _elm_lang$core$Native_Platform.incomingPort(
@@ -7816,15 +7821,10 @@ var _user$project$ListFilter$getInitValue = _elm_lang$core$Native_Platform.incom
 					function (latin) {
 						return A2(
 							_elm_lang$core$Json_Decode$andThen,
-							A2(_elm_lang$core$Json_Decode_ops[':='], 'german', _elm_lang$core$Json_Decode$string),
-							function (german) {
-								return A2(
-									_elm_lang$core$Json_Decode$andThen,
-									A2(_elm_lang$core$Json_Decode_ops[':='], 'english', _elm_lang$core$Json_Decode$string),
-									function (english) {
-										return _elm_lang$core$Json_Decode$succeed(
-											{latin: latin, german: german, english: english});
-									});
+							A2(_elm_lang$core$Json_Decode_ops[':='], 'english', _elm_lang$core$Json_Decode$string),
+							function (english) {
+								return _elm_lang$core$Json_Decode$succeed(
+									{latin: latin, english: english});
 							});
 					}))),
 		function (herbs) {
@@ -7832,18 +7832,30 @@ var _user$project$ListFilter$getInitValue = _elm_lang$core$Native_Platform.incom
 				_elm_lang$core$Json_Decode$andThen,
 				A2(_elm_lang$core$Json_Decode_ops[':='], 'filterBy', _elm_lang$core$Json_Decode$string),
 				function (filterBy) {
-					return _elm_lang$core$Json_Decode$succeed(
-						{herbs: herbs, filterBy: filterBy});
+					return A2(
+						_elm_lang$core$Json_Decode$andThen,
+						A2(_elm_lang$core$Json_Decode_ops[':='], 'message', _elm_lang$core$Json_Decode$string),
+						function (message) {
+							return _elm_lang$core$Json_Decode$succeed(
+								{herbs: herbs, filterBy: filterBy, message: message});
+						});
 				});
 		}));
-var _user$project$ListFilter$HerbDescription = F3(
-	function (a, b, c) {
-		return {latin: a, german: b, english: c};
-	});
-var _user$project$ListFilter$Model = F2(
+var _user$project$ListFilter$HerbDescription = F2(
 	function (a, b) {
-		return {herbs: a, filterBy: b};
+		return {latin: a, english: b};
 	});
+var _user$project$ListFilter$herbDateDecoder = A3(
+	_elm_lang$core$Json_Decode$object2,
+	_user$project$ListFilter$HerbDescription,
+	A2(_elm_lang$core$Json_Decode_ops[':='], 'english', _elm_lang$core$Json_Decode$string),
+	A2(_elm_lang$core$Json_Decode_ops[':='], 'latin', _elm_lang$core$Json_Decode$string));
+var _user$project$ListFilter$herbListDecoder = _elm_lang$core$Json_Decode$list(_user$project$ListFilter$herbDateDecoder);
+var _user$project$ListFilter$Model = F3(
+	function (a, b, c) {
+		return {herbs: a, filterBy: b, message: c};
+	});
+var _user$project$ListFilter$FetchData = {ctor: 'FetchData'};
 var _user$project$ListFilter$Init = function (a) {
 	return {ctor: 'Init', _0: a};
 };
@@ -7868,7 +7880,7 @@ var _user$project$ListFilter$view = function (model) {
 				_elm_lang$html$Html$input,
 				_elm_lang$core$Native_List.fromArray(
 					[
-						_elm_lang$html$Html_Attributes$placeholder('Filter latin'),
+						_elm_lang$html$Html_Attributes$placeholder('Filter'),
 						_elm_lang$html$Html_Events$onInput(_user$project$ListFilter$NewFilter)
 					]),
 				_elm_lang$core$Native_List.fromArray(
@@ -7906,20 +7918,20 @@ var _user$project$ListFilter$main = {
 							function (english) {
 								return A2(
 									_elm_lang$core$Json_Decode$andThen,
-									A2(_elm_lang$core$Json_Decode_ops[':='], 'german', _elm_lang$core$Json_Decode$string),
-									function (german) {
-										return A2(
-											_elm_lang$core$Json_Decode$andThen,
-											A2(_elm_lang$core$Json_Decode_ops[':='], 'latin', _elm_lang$core$Json_Decode$string),
-											function (latin) {
-												return _elm_lang$core$Json_Decode$succeed(
-													{english: english, german: german, latin: latin});
-											});
+									A2(_elm_lang$core$Json_Decode_ops[':='], 'latin', _elm_lang$core$Json_Decode$string),
+									function (latin) {
+										return _elm_lang$core$Json_Decode$succeed(
+											{english: english, latin: latin});
 									});
 							}))),
 				function (herbs) {
-					return _elm_lang$core$Json_Decode$succeed(
-						{filterBy: filterBy, herbs: herbs});
+					return A2(
+						_elm_lang$core$Json_Decode$andThen,
+						A2(_elm_lang$core$Json_Decode_ops[':='], 'message', _elm_lang$core$Json_Decode$string),
+						function (message) {
+							return _elm_lang$core$Json_Decode$succeed(
+								{filterBy: filterBy, herbs: herbs, message: message});
+						});
 				});
 		})
 };

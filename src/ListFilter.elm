@@ -5,6 +5,9 @@ import Html.Attributes exposing (..)
 import Html.Events exposing (..)
 import Html.App as App
 import String exposing (contains)
+import Json.Decode as Json exposing (..)
+import Task
+import Http
 
 main : Program Model
 main
@@ -19,17 +22,17 @@ main
 
 type alias HerbDescription =
   { latin : String
-  , german : String
   , english : String
   }
 
 type alias Model =
   { herbs : List HerbDescription
   , filterBy : String
+  , message : String
   }
 
 init : (Model, Cmd Msg)
-init = ({herbs = [], filterBy = ""}, Cmd.none)
+init = ({herbs = [], filterBy = "", message = ""}, Cmd.none)
 
 
 -- UPDATE
@@ -38,6 +41,7 @@ type Msg
   = NoOp
   | NewFilter String
   | Init Model
+  | FetchData
 
 port syncmap : Model -> Cmd msg
 
@@ -46,13 +50,19 @@ update msg model =
   case msg of
     NoOp ->
       (model, Cmd.none)
+
     NewFilter inputValue ->
       let newModel = { model | filterBy = inputValue }
       in
         (newModel, Cmd.none)
+
     Init initModel ->
       (initModel, Cmd.none)
 
+    FetchData ->
+      let newModel =  { model | message = "test" }
+      in
+        (newModel, Cmd.none)
 
 -- SUBSCRIPTIONS
 
@@ -71,7 +81,7 @@ view model =
       List.map viewHerbDescription (List.filterMap (removeUnmatched model.filterBy) model.herbs)
   in
     div []
-      [ input [ placeholder "Filter latin", onInput NewFilter ] []
+      [ input [ placeholder "Filter", onInput NewFilter ] []
       , div [] herbs
       ]
 
@@ -79,7 +89,8 @@ removeUnmatched : String -> HerbDescription -> Maybe HerbDescription
 removeUnmatched fltr desc =
   if contains fltr desc.latin then
     Just desc
-
+  else if contains fltr desc.english then
+    Just desc
   else
     Nothing
 
@@ -87,6 +98,24 @@ viewHerbDescription : HerbDescription -> Html Msg
 viewHerbDescription model =
   div []
     [ text (model.latin ++ " - ")
-    , text (model.german ++ " - ")
     , text model.english
     ]
+
+-- HTTP CALLS AND DECODER
+
+herbDateDecoder : Json.Decoder HerbDescription
+herbDateDecoder =
+  Json.object2
+    HerbDescription
+    ("english" := string)
+    ("latin" := string)
+
+herbListDecoder : Json.Decoder (List HerbDescription)
+herbListDecoder =
+  Json.list herbDateDecoder
+
+fetchData : Cmd Msg
+fetchData =
+  Http.get herbListDecoder "http://0.0.0.0:3020/herbs"
+    |> Task.mapError toString
+    |> Task.perform ErrorOccurred DataFetched
