@@ -90,8 +90,13 @@ view model =
         <| List.filterMap (removeUnmatched <| String.toLower model.filterBy) model.herbs
   in
     div []
-      [ input [ placeholder "Filter", onInput NewFilter ] []
-      , div [] herbs
+      [ text model.message
+      , input [ class "filter-box", placeholder "Filter", onInput NewFilter ] []
+      , div [ class "herblist-header" ] 
+        [ span [] [ text "Product name" ]
+        , span [] [ text "Botanical name" ]
+        ]
+      , div [class "herblist"] herbs
       ]
 
 removeUnmatched : String -> HerbDescription -> Maybe HerbDescription
@@ -109,9 +114,9 @@ removeUnmatched fltr desc =
 
 viewHerbDescription : HerbDescription -> Html Msg
 viewHerbDescription model =
-  div []
-    [ text (model.latin ++ " - ")
-    , text model.english
+  div [class "list-item"]
+    [ span [] [ text model.latin ]
+    , span [] [ text model.english ]
     ]
 
 -- HTTP CALL AND DECODERS

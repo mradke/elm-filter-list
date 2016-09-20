@@ -1,1117 +1,1122 @@
 {
   "herbs": [
-    {"english":"Abrus Precatorius Seed","latin":"Abrus Precatorius Seed"},
-    {"english":"Acaciae Flowers","latin":"Acaciae Flos"},
-    {"english":"Acai Fruit","latin":"Acai Fructus"},
-    {"english":"Acai Palm Fruit","latin":"Acai Palm Fruit"},
-    {"english":"Acalypha Indica","latin":"Acalypha Indica"}
-    ,
-    {"english":"Acerola Fruit","latin":"Acerola Fructus"}
-    ,
-    {"english":"Aconitum Root","latin":"Aconiti Napelli Tuber"}
-    ,
-    {"english":"Adonis Vernalis Herb","latin":"Adonis Vernalis Herba"}
-    ,
-    {"english":"Aegopodium Podagraria Herba","latin":"Aegopodium Podagraria Herba"}
-    ,
-    {"english":"Agar Agar","latin":"Agar Agar"}
-    ,
-    {"english":"Agaricus","latin":"Agaricus"}
-    ,
-    {"english":"Agathosma Crenulata","latin":"Agathosma Crenulata"}
-    ,
-    {"english":"Agnus Castus Leaves","latin":"Agni Casti Folia"}
-    ,
-    {"english":"Agraphis Nutans Herba","latin":"Agraphis Nutans Herba"}
-    ,
-    {"english":"Agrimoni Herb","latin":"Agrimoniae Herba"}
-    ,
-    {"english":"Ajuga Reptans Herba","latin":"Ajuga Reptans Herba"}
-    ,
-    {"english":"Alaria Esculenta","latin":"Alaria Esculenta"}
-    ,
-    {"english":"Albizzia Julibrissin Leaf","latin":"Albizzia Julibrissin Foliae"}
-    ,
-    {"english":"Aleurites Moluccana Leaf","latin":"Aleurites Moluccana Folia"}
-    ,
-    {"english":"Alfalfa","latin":"Medicaginis Sativa"}
-    ,
-    {"english":"Alkanet Root","latin":"Alkannae Radix"}
-    ,
-    {"english":"Almond Bitter","latin":"Amygdalae Amarae Semen"}
-    ,
-    {"english":"Almond Flower","latin":"Amygdalum Flores"}
-    ,
-    {"english":"Almond Sweet","latin":"Amygdalae Dulcis Semen"}
-    ,
-    {"english":"Aloe Cap.","latin":"Aloe Cap."}
-    ,
-    {"english":"Aloe Leaf","latin":"Aloe Vera Folia"}
-    ,
-    {"english":"Aloe Vera Gel","latin":"Aloe Vera Gel"}
-    ,
-    {"english":"Alps Parsley-Piert","latin":"Alchemillae Alpinae"}
-    ,
-    {"english":"Alstonia Constricta Bark","latin":"Alstonia Constricta Cortex"}
-    ,
-    {"english":"Alyssoides Herb","latin":"Alyssoides Herba"}
-    ,
-    {"english":"Amaranthis","latin":"Amaranthus"}
-    ,
-    {"english":"American Hemp Root","latin":"Apocyni Cannabini Radix"}
-    ,
-    {"english":"American Hemp Seed","latin":"Apocyni Cannabini Seed"}
-    ,
-    {"english":"Ammonium Glycyrrhizate","latin":"Ammonium Glycyrrhizate"}
-    ,
-    {"english":"Anagallidis Herb","latin":"Anagallidis Herba"}
-    ,
-    {"english":"Anethi Leaf","latin":"Anethi Folia"}
-    ,
-    {"english":"Angelica Leaf","latin":"Angelicae Folia"}
-    ,
-    {"english":"Angelica Root","latin":"Angelicae Radix"}
-    ,
-    {"english":"Angelica Seed","latin":"Angelicae Fructus"}
-    ,
-    {"english":"Angelicae Acutiloba Radix","latin":"Angelicae Acutiloba Radix"}
-    ,
-    {"english":"Angostura Bark","latin":"Angosturae Verus Cortex"}
-    ,
-    {"english":"Anis Seed","latin":"Anisis Vulg. Fructus"}
-    ,
-    {"english":"Annatto Seed","latin":"Annatto Semen"}
-    ,
-    {"english":"Annona Muricata Leaf","latin":"Annona Muricata Folia"}
-    ,
-    {"english":"Apple","latin":"Mali Fructus"}
-    ,
-    {"english":"Apple Leaf","latin":"Mali Folium"}
-    ,
-    {"english":"Apricot","latin":"Apricot"}
-    ,
-    {"english":"Apricot Tree Leaves","latin":"Angelicae Sylvestris"}
-    ,
-    {"english":"Aquilegiae Vulgaris Herb","latin":"Aquilegiae Vulgaris Herba"}
-    ,
-    {"english":"Arabicum Gumen","latin":"Arabicum gum Kordofan"}
-    ,
-    {"english":"Argan Oil","latin":"Argan Oil"}
-    ,
-    {"english":"Arnica Chamissonis Flower","latin":"Arnica Chamissonis Flores"}
-    ,
-    {"english":"Arnica Herb (Mexican)","latin":"Arnica Mexicanae Herba"}
-    ,
-    {"english":"Arnica Herb (Montana)","latin":"Arnicae Montana Herba"}
-    ,
-    {"english":"Arnica Montana Flowers","latin":"Arnicae Montanae Flores"}
-    ,
-    {"english":"Aronia fruit","latin":"Aronia Fructus"}
-    ,
-    {"english":"Artichoke Leaf","latin":"Cynarae Folia"}
-    ,
-    {"english":"Asa Foetida Gummi","latin":"Asa Foetida Gummi"}
-    ,
-    {"english":"Asarum Root","latin":"Asari cum Herba"}
-    ,
-    {"english":"Ash Bark","latin":"Fraxini Cortex"}
-    ,
-    {"english":"Ashwanga Root","latin":"Withania som. Radix"}
-    ,
-    {"english":"Aspalathi Folium","latin":"Aspalathi Folium"}
-    ,
-    {"english":"Asparagus","latin":"Asparagi Spross"}
-    ,
-    {"english":"Astaxanthin Oil","latin":"Astaxanthin Oleum"}
-    ,
-    {"english":"Astragallus Root","latin":"Astragallus Membranaceus"}
-    ,
-    {"english":"Astragalus Adsurgens Herb","latin":"Astragalus Adsurgens Herba"}
-    ,
-    {"english":"Astrocaryum Tacuma Seed","latin":"Astrocaryum Tacuma Semen"}
-    ,
-    {"english":"Atractylodis Root","latin":"Atractylodis Radix"}
-    ,
-    {"english":"Bamboo Leaf","latin":"Bamboo Folia"}
-    ,
-    {"english":"Baobab Fruit Pulp","latin":"Adansonia dig. Fruct."}
-    ,
-    {"english":"Baobab Oil","latin":"Adansonia dig. Oleum"}
-    ,
-    {"english":"Barberry Root","latin":"Berberidis Radix"}
-    ,
-    {"english":"Basil Leaf","latin":"Basilici Herba"}
-    ,
-    {"english":"Bay Leaves","latin":"Lauri Folia"}
-    ,
-    {"english":"Bearbind Herb","latin":"Convolvuli Herba"}
-    ,
-    {"english":"Beet Root","latin":"Beta Vulgaris"}
-    ,
-    {"english":"Belladonna Leaf","latin":"Belladonnae Folia"}
-    ,
-    {"english":"Belladonna Root","latin":"Belladonnae Radix"}
-    ,
-    {"english":"Bengal Quince","latin":"Aegle Marmelos"}
-    ,
-    {"english":"Benzoe Gum","latin":"Benzoe Resina"}
-    ,
-    {"english":"Bertram Herb","latin":"Anacyclus Pyrethrum Herba"}
-    ,
-    {"english":"Bertram Root","latin":"Anacyclus Pyrethrum"}
-    ,
-    {"english":"Bilberry Fruit","latin":"Myrtilli Fructus"}
-    ,
-    {"english":"Bilberry Leaf","latin":"Myrtilli Folium"}
-    ,
-    {"english":"Birch Bark","latin":"Betulae Cortex"}
-    ,
-    {"english":"Birch Leaf","latin":"Betulae Folium"}
-    ,
-    {"english":"Birthwort Herb","latin":"Aristolochia Clematitis Herba"}
-    ,
-    {"english":"Bistort Root","latin":"Bistortae Rhizoma"}
-    ,
-    {"english":"Bitter Melon Seed","latin":"Momordicae Charantiae"}
-    ,
-    {"english":"Black Adder Herb","latin":"Agastache Rugosa Herb"}
-    ,
-    {"english":"Black Alder Bark","latin":"Alnus Glutinosa Cortex"}
-    ,
-    {"english":"Black Choke Berry","latin":"Aronia Fructus"}
-    ,
-    {"english":"Black Cohosh Root","latin":"Cimicifugae Racem. Radix"}
-    ,
-    {"english":"Black Current Leaf","latin":"Ribis Nigri Folium"}
-    ,
-    {"english":"Black Garlic","latin":"Alii Ursini Ferment."}
-    ,
-    {"english":"Black Haw Bark","latin":"Viburni Rrun. Arb.Cortex"}
-    ,
-    {"english":"Black Hellebor Root","latin":"Hellebori Nigri Radix"}
-    ,
-    {"english":"Black Henbane Leaf","latin":"Hyoscyami Niger Folium"}
-    ,
-    {"english":"Black Locust Flowers","latin":"Robiniae Pseudoacaciae"}
-    ,
-    {"english":"Black Raddish Root","latin":"Raphani Sat Nigri Radix"}
-    ,
-    {"english":"Blackberry Leaf","latin":"Rubi Fruticosi Folium"}
-    ,
-    {"english":"Bladderwrack","latin":"Vesiculosus Fucus Flakes"}
-    ,
-    {"english":"Blessed Thistle Herb","latin":"Cardui Ben.Herba"}
-    ,
-    {"english":"Blind Nettle Herb","latin":"Lami Albi Herba"}
-    ,
-    {"english":"Bloodroot Herb","latin":"Sanguinariae Hherba"}
-    ,
-    {"english":"Blue Mallow Flowers","latin":"Malvae Mauritianae Flos"}
-    ,
-    {"english":"Boldo Leaves","latin":"Boldo Folium"}
-    ,
-    {"english":"Borage","latin":"Borraginis"}
-    ,
-    {"english":"Broom Heather Herb","latin":"Ericae Herba"}
-    ,
-    {"english":"Buchu","latin":"Agathosma Betulina"}
-    ,
-    {"english":"Buckthorn Bark","latin":"Frangulae Cortex"}
-    ,
-    {"english":"Burdock Root","latin":"Bardanae Radix"}
-    ,
-    {"english":"Butcher's Broom","latin":"Rusci Aculeati Rhizoma"}
-    ,
-    {"english":"Butterbur Purple Leaf","latin":"Petasitidis Folium"}
-    ,
-    {"english":"Butternut Bark","latin":"Juglans Cinerea Cortex"}
-    ,
-    {"english":"Cactus","latin":"Opuntia Nopal"}
-    ,
-    {"english":"Calendula Flower","latin":"Calendulae c.Calice Flos"}
-    ,
-    {"english":"Calofornia Poppy Herb","latin":"Escholziae Calif.Herba"}
-    ,
-    {"english":"Camala","latin":"Kamala"}
-    ,
-    {"english":"Camomile Flower","latin":"Chamomillae Vulg. Flos"}
-    ,
-    {"english":"Camomile Pollen","latin":"Chamomillae Vulg. Pollen"}
-    ,
-    {"english":"Canada Snake Root","latin":"Asarum Canadensis Radix"}
-    ,
-    {"english":"Caraway Seed","latin":"Carvi Fructus"}
-    ,
-    {"english":"Cardamon Fruit","latin":"Cardamomi Fructus"}
-    ,
-    {"english":"Carob Fruit","latin":"Ceratoniae Siliq.Fructus"}
-    ,
-    {"english":"Cascara Sagrada Bark","latin":"Cascarae Sagr. Cortex"}
-    ,
-    {"english":"Cascarilla Bark","latin":"Cascarillae Cortex"}
-    ,
-    {"english":"Cassia Fistula Fruit","latin":"Cassiae Fistula Fructus"}
-    ,
-    {"english":"Catechu Black","latin":"Catechu Nigrum"}
-    ,
-    {"english":"Catnip","latin":"Nepetae Cat."}
-    ,
-    {"english":"Catuaba","latin":"Erythroxylum Catuaba Cortex"}
-    ,
-    {"english":"Cedarwood Chips","latin":"Cedri Cirginici Lignum Chopped"}
-    ,
-    {"english":"Celery","latin":"Apii Grav."}
-    ,
-    {"english":"Centaury Herb","latin":"Centaurii Herba"}
-    ,
-    {"english":"Chaga Mushroom","latin":"Betulinus Fungis"}
-    ,
-    {"english":"Chaparral Herb","latin":"Larreae Mex. Herba"}
-    ,
-    {"english":"Chaste Tree Flowers","latin":"Agni Casti Flores"}
-    ,
-    {"english":"Chaste Tree Leaves","latin":"Agni Casti Folium"}
-    ,
-    {"english":"Chaste Tree Oil","latin":"Agni Casti Oleum"}
-    ,
-    {"english":"Chaste Tree Seed","latin":"Agni Casti Fructus"}
-    ,
-    {"english":"Cherry Stalks","latin":"Cerasi Stipites"}
-    ,
-    {"english":"Chervil","latin":"Anthriscus Cerefolium"}
-    ,
-    {"english":"Chia Seed","latin":"Salviae Hispanica Semen"}
-    ,
-    {"english":"Chickweed","latin":"Stellariae Mediae"}
-    ,
-    {"english":"Chicoree Root","latin":"Cichoriae Radix"}
-    ,
-    {"english":"Chieves","latin":"Allii Schoenoprasi Herba"}
-    ,
-    {"english":"Chilean Wineberry","latin":"Aristotelia Chilensis Fructus"}
-    ,
-    {"english":"Chiretta Green","latin":"Andrographidis Herba"}
-    ,
-    {"english":"Chirettae Brown","latin":"Chiretae Swertia Herba"}
-    ,
-    {"english":"Chlorella Alga","latin":"Chlorellae Alga"}
-    ,
-    {"english":"Chokeberry Leaves","latin":"Aronia Folia"}
-    ,
-    {"english":"Chrysantellum","latin":"Chrysanthellum Americanum"}
-    ,
-    {"english":"Cinchona Bark Red","latin":"Chinae Succirubr.Cortex"}
-    ,
-    {"english":"Cinnamomi Alba Quilling","latin":"Cinnamomi Alba Quillings"}
-    ,
-    {"english":"Cinnamomi Quillings","latin":"Cinnamomi Quillings"}
-    ,
-    {"english":"Cinnamon Stick","latin":"Cinnamomi C.Vera"}
-    ,
-    {"english":"Clary Sage","latin":"Salviae Sclareae Herba"}
-    ,
-    {"english":"Cleavers Herb","latin":"Galii Aparinis Herba"}
-    ,
-    {"english":"Clover Herb","latin":"Trifolii Rubri Herba"}
-    ,
-    {"english":"Cloves","latin":"Caryophylli Flos"}
-    ,
-    {"english":"Clubmoss Herb","latin":"Lycopodii Herba"}
-    ,
-    {"english":"Clubmoss Spore","latin":"Lycopodii Clavatum Sporae"}
-    ,
-    {"english":"Cocillianae Bark","latin":"Cocillianae Cortex"}
-    ,
-    {"english":"Coffeebeans, Green","latin":"Arabica"}
-    ,
-    {"english":"Colanuts","latin":"Colae Nuces"}
-    ,
-    {"english":"Coloquint / Bitterapple","latin":"Colocynthidis Fructus"}
-    ,
-    {"english":"Coltsfoot","latin":"Farfarae Folium"}
-    ,
-    {"english":"Comfrey Herb","latin":"Consolidae Herba"}
-    ,
-    {"english":"Comfrey Leaf","latin":"Consolidae Folium"}
-    ,
-    {"english":"Comfrey Root","latin":"Consolidae Radix"}
-    ,
-    {"english":"Common Broom Herb","latin":"Spartii Scoparii Herba"}
-    ,
-    {"english":"Common Carline Root","latin":"Carlinae Radix"}
-    ,
-    {"english":"Common Mallow Flowers","latin":"Malvae Sylv. Flos"}
-    ,
-    {"english":"Common Mallow Leaves","latin":"Malvae Sylv. Folia"}
-    ,
-    {"english":"Common Wormwood Herb","latin":"Absinthii Vulgaris Herba"}
-    ,
-    {"english":"Condurango Bark","latin":"Condurango Mataperro Mortex"}
-    ,
-    {"english":"Coneflower Herb","latin":"Echinaceae Ang Herba"}
-    ,
-    {"english":"Coneflower Herb","latin":"Echinaceae Purp.Herba"}
-    ,
-    {"english":"Coneflower Root","latin":"Echinaceae Purp.Radix"}
-    ,
-    {"english":"Conyza Canadensis Herb","latin":"Conyza Canadensis Herba"}
-    ,
-    {"english":"Copalchi Bark","latin":"Copalchi Cortex"}
-    ,
-    {"english":"Coriander Herb","latin":"Coriandri Herba"}
-    ,
-    {"english":"Coriander Leaves","latin":"Coriandri Folium"}
-    ,
-    {"english":"Coriander Oil","latin":"Coriandri Oleum"}
-    ,
-    {"english":"Coriander Seed","latin":"Coriandri Fructus"}
-    ,
-    {"english":"Cowberry Leaves","latin":"Vitis Idaeae Folium"}
-    ,
-    {"english":"Cowhage Fruit","latin":"Mucuna Pruiens Fruct"}
-    ,
-    {"english":"Cowslip Flower","latin":"Primulae Flos"}
-    ,
-    {"english":"Cowslip Root","latin":"Primulae Radix"}
-    ,
-    {"english":"Cramp Bark","latin":"Viburni Opuli Cortex"}
-    ,
-    {"english":"Cubeb Berries","latin":"Cubebae Fructus"}
-    ,
-    {"english":"Cumin Seed","latin":"Cumini Fructus"}
-    ,
-    {"english":"Curcuma","latin":"Curcumae Longae Rhiz."}
-    ,
-    {"english":"Cornflower (Blue/Red)","latin":"Cyani Coerulei"}
-    ,
-    {"english":"Damar Gum","latin":"Damar Gummi"}
-    ,
-    {"english":"Damiana Leaf","latin":"Damianae Mex Folium"}
-    ,
-    {"english":"Dandelion Flower","latin":"Taraxaci Flores"}
-    ,
-    {"english":"Dandelion Leaf","latin":"Taraxaci Folium"}
-    ,
-    {"english":"Dandelion Root","latin":"Taraxaci Radix"}
-    ,
-    {"english":"Dark Cloud Herb with Root","latin":"Andrograph.Herb.c.Rad."}
-    ,
-    {"english":"Desmoidum Leaf","latin":"Desmodium Folium"}
-    ,
-    {"english":"Devils Dunk","latin":"Asa Foetida Gummi-Resina"}
-    ,
-    {"english":"Devilsclaw","latin":"Harpagophyti Spp Radix"}
-    ,
-    {"english":"Devilsclaw Root","latin":"Harpagophyti Proc.Radix"}
-    ,
-    {"english":"Dill Leaf","latin":"Anethi Folium"}
-    ,
-    {"english":"Dillseed","latin":"Anethi Fructus"}
-    ,
-    {"english":"Doggrass","latin":"Graminis Cynodon.Rhiz."}
-    ,
-    {"english":"Dong Quai Root","latin":"Angelicae Sinensis Radix"}
-    ,
-    {"english":"Downy Burdock","latin":"Arctium Tomentosum"}
-    ,
-    {"english":"Dragonblood","latin":"Draconis, Resina"}
-    ,
-    {"english":"Dwarf Elder Fruits","latin":"Sambuci Ebuli Fructus"}
-    ,
-    {"english":"Eastern Arbor Vitae Herb","latin":"Thujae Occidentalis Herba"}
-    ,
-    {"english":"Eggshell","latin":"Eierschale"}
-    ,
-    {"english":"Elder Flowers","latin":"Sambuci Flos"}
-    ,
-    {"english":"Elderberries","latin":"Sambuci Nigra Fruct"}
-    ,
-    {"english":"Elderberry Seed Oil","latin":"Sambuci Nigra Fruct Oleum"}
-    ,
-    {"english":"Elephant Garlic","latin":"Allium Ampeloprasum"}
-    ,
-    {"english":"Eucalyptus Leaf","latin":"Eucalyptii Globuli Folium"}
-    ,
-    {"english":"European Avens Herb","latin":"Gei Urbani Herba"}
-    ,
-    {"english":"European Avens Root","latin":"Gei Urbani Radix"}
-    ,
-    {"english":"Eyebright Herb","latin":"Euphrasiae Rostk.Herba"}
-    ,
-    {"english":"Fennel Seed Bitter","latin":"Foeniculi Amarae Fructus"}
-    ,
-    {"english":"Fennel Seed Sweet","latin":"Foeniculi Fructus Dulcis"}
-    ,
-    {"english":"Fenugreek Seed","latin":"Foenugraeci Semen"}
-    ,
-    {"english":"Feverfew Leaf","latin":"Chrysanth.Parth.Folia"}
-    ,
-    {"english":"Flaxseed Brown","latin":"Lini Semen Braun"}
-    ,
-    {"english":"Fo Ti","latin":"Polygonum Multiflorum Radix"}
-    ,
-    {"english":"Foenugreek Seed","latin":"Foenugraeci Semen"}
-    ,
-    {"english":"Frankincense","latin":"Olibanum Gummi"}
-    ,
-    {"english":"Fumitory Herb","latin":"Fumariae Herba"}
-    ,
-    {"english":"Galanga Root","latin":"Galangae Minoris Rhizoma"}
-    ,
-    {"english":"Garcinia Fruit","latin":"Garciniae Camb.Fructus"}
-    ,
-    {"english":"Garden Orache Herb","latin":"Atriplex Hortensis Herba"}
-    ,
-    {"english":"Garlic","latin":"Allii Sativi Bulbus"}
-    ,
-    {"english":"Gentian Root","latin":"Gentiana Lutea Radix"}
-    ,
-    {"english":"Giant Hyssop","latin":"Agastache Mexicana"}
-    ,
-    {"english":"Ginger Root","latin":"Zingiberis Rhizoma"}
-    ,
-    {"english":"Ginkgo Leaf","latin":"Ginkgo Bilobae Folium"}
-    ,
-    {"english":"Ginseng Panax Root","latin":"Ginseng Panax Radix"}
-    ,
-    {"english":"Ginseng Root Red","latin":"Ginseng Rubra Radix"}
-    ,
-    {"english":"Ginseng Tails","latin":"Ginseng Panax Radix Tails"}
-    ,
-    {"english":"Glucomanan","latin":"Amorphophallii Kon.Radix"}
-    ,
-    {"english":"Goats Rue Herb","latin":"Galegae Officinalis Herba"}
-    ,
-    {"english":"Goji Fruits","latin":"Lycii Fructus"}
-    ,
-    {"english":"Goldenrod Herb","latin":"Solidaginis Virg.Herba"}
-    ,
-    {"english":"Goldenseal Root","latin":"Hydrastis Can.Rhizoma"}
-    ,
-    {"english":"Gotu Kola Herb","latin":"Hydrocotylis Mad.Herba"}
-    ,
-    {"english":"Grains of Paradise","latin":"Aframomum Melegueta Semen"}
-    ,
-    {"english":"Grapefruit Peel","latin":"Citri Auranti Pericapium"}
-    ,
-    {"english":"Grapefruit Seeds","latin":"Citri Auranti Semen"}
-    ,
-    {"english":"Gray Alder, Cones","latin":"Alnus Incana, Conus"}
-    ,
-    {"english":"Greater Burdock Roots","latin":"Arctium Lappa Radix"}
-    ,
-    {"english":"Ground Ivy Herb","latin":"Hederae Terrestris Herba"}
-    ,
-    {"english":"Guaiac Wood","latin":"Guajaci Lignum"}
-    ,
-    {"english":"Guaranaseed","latin":"Guaranae Semen"}
-    ,
-    {"english":"Gujak Resin","latin":"Guajaci Resina"}
-    ,
-    {"english":"Gymnema Flower","latin":"Gymnemae Silv. Folium"}
-    ,
-    {"english":"Hawthorn Berries","latin":"Crataegi Fructus"}
-    ,
-    {"english":"Hawthorn Leaf w Flower","latin":"Crataegi c Flore Fol"}
-    ,
-    {"english":"Heatherflower","latin":"Ericae Flos"}
-    ,
-    {"english":"Henna Black","latin":"Hennae Folium Schwarz"}
-    ,
-    {"english":"Henna Neutral","latin":"Hennae Folium Neutral"}
-    ,
-    {"english":"Hennapowder Red","latin":"Hennae Folium Red"}
-    ,
-    {"english":"Herb Robert","latin":"Geranii Robertiani Herba"}
-    ,
-    {"english":"Hibiscus Flowers","latin":"Hibiscus Sabdariffae Flos"}
-    ,
-    {"english":"Hollow Tooth Herb","latin":"Galeopsidis Herba"}
-    ,
-    {"english":"Honeybush Tea","latin":"Cyclopiae Spec.Fol."}
-    ,
-    {"english":"Hops","latin":"Humuli Lupuli"}
-    ,
-    {"english":"Horsechestnut","latin":"Hippocastani Semen"}
-    ,
-    {"english":"Horsegram Root","latin":"Dolichos Biflorus Radix"}
-    ,
-    {"english":"Horseradish Root","latin":"Armorarciae Rusticana Radix"}
-    ,
-    {"english":"Horsetail","latin":"Equiseti Arv. Herba"}
-    ,
-    {"english":"Hyperici Herba","latin":"Hyperici Herba Fl"}
-    ,
-    {"english":"Hyssop Herb","latin":"Hyssopi Herba"}
-    ,
-    {"english":"Iceland Moss","latin":"Islandicus Lichen"}
-    ,
-    {"english":"Indian Tobacco","latin":"Lobelia Herb"}
-    ,
-    {"english":"Irish Moss","latin":"Carrageen Llichen Naturalis"}
-    ,
-    {"english":"Ivy Leaf","latin":"Hederae Helicis Folium"}
-    ,
-    {"english":"Jaborandi Leaf","latin":"Jaborandi Folium"}
-    ,
-    {"english":"Jack-in-the-Pulpit Roots","latin":"Arisaema Triphyllum Radix"}
-    ,
-    {"english":"Jalap Root","latin":"Jalapae Tuber"}
-    ,
-    {"english":"Jamaica Dogwood Bark","latin":"Piscidia Erythrina Cortex"}
-    ,
-    {"english":"Java Tea","latin":"Orthosiphonis Stam.Fol."}
-    ,
-    {"english":"Jequirity","latin":"Abrus Precatorius"}
-    ,
-    {"english":"Juniper Berries","latin":"Juniperi Fructus"}
-    ,
-    {"english":"Kava Kava Root Bark","latin":"Kava-Kava Radix Cortex"}
-    ,
-    {"english":"Kava-Kava Rhizoma Chips","latin":"Kava-Kava Rhizoma Chips"}
-    ,
-    {"english":"Kelp","latin":"Ascophyllum Nodosum"}
-    ,
-    {"english":"Klamath Blue Green Algae","latin":"Aphanizomenon Flos-Aquae"}
-    ,
-    {"english":"Kudzu Radix","latin":"Pueraria Lobata Radix"}
-    ,
-    {"english":"Lackspur Roots","latin":"Calcatrippae Radix"}
-    ,
-    {"english":"Lady's Mantle Flowers","latin":"Alchemillae Vulg. Flos"}
-    ,
-    {"english":"Lady's Mantle Herb","latin":"Alchemillae Vulg. Herba"}
-    ,
-    {"english":"Lavender Flowers Grey","latin":"Lavandulae Flos Albanien"}
-    ,
-    {"english":"Leek Flakes","latin":"Allii Ampeloprasi Flakes"}
-    ,
-    {"english":"Lemon Beebrush","latin":"Aloysia Citrodora"}
-    ,
-    {"english":"Lemon Peel","latin":"Citri Pericarpium"}
-    ,
-    {"english":"Lemon Verbena","latin":"Verbenae Odor.Folium"}
-    ,
-    {"english":"Lemonbalm Herb","latin":"Melissae Off.Herba"}
-    ,
-    {"english":"Lemonbalm Leaf","latin":"Melissae Off.Folium"}
-    ,
-    {"english":"Lemongrass","latin":"Andropogonis Citr.Herba"}
-    ,
-    {"english":"Licorice Extract","latin":"Liquiritiae Succus"}
-    ,
-    {"english":"Licorice Root","latin":"Liquiritiae Radix"}
-    ,
-    {"english":"Life Everlasting Flowers","latin":"Helichrysi Flos"}
-    ,
-    {"english":"Lily of the Valley","latin":"Convallariae Maj. Herba"}
-    ,
-    {"english":"Lime Fruits","latin":"Citri Latifolia Fructus"}
-    ,
-    {"english":"Lime Peel","latin":"Citri Latifolia Peric."}
-    ,
-    {"english":"Limebalm Leaves","latin":"Melissae Off.Folium"}
-    ,
-    {"english":"Limosin Wood","latin":"Limousinae Lignum"}
-    ,
-    {"english":"Linden Flowers","latin":"Tiliae Argentea Flores"}
-    ,
-    {"english":"Linden Leaves","latin":"Tiliae Off. Folium"}
-    ,
-    {"english":"Linseed Yellow","latin":"Lini Semen Gold"}
-    ,
-    {"english":"Liverworth Herb","latin":"Hepaticae Nobilis Herba"}
-    ,
-    {"english":"Logwood","latin":"Campechianum Lignum"}
-    ,
-    {"english":"Lotusflower","latin":"Nelumbo Nuciferae Flos"}
-    ,
-    {"english":"Lovage Root","latin":"Levistici Radix"}
-    ,
-    {"english":"Lungworth Leaf","latin":"Pulmonariae Off.Folium"}
-    ,
-    {"english":"Lungworth Moss","latin":"Pulmonariae Lichen"}
-    ,
-    {"english":"Maca Root","latin":"Lepidium Meyenii Radix"}
-    ,
-    {"english":"Madder Root","latin":"Rubiae Tinctoriae Radix"}
-    ,
-    {"english":"Magnolia Bark","latin":"Magnoliae Cortex"}
-    ,
-    {"english":"Maiden Hair Herb","latin":"Capilli Veneris Herba"}
-    ,
-    {"english":"Maidenhair Spleenwort Leaves","latin":"Asplenium Trichomanes Folia"}
-    ,
-    {"english":"Majoram","latin":"Majoranae Folia"}
-    ,
-    {"english":"Manchurian Thorn Leaves","latin":"Aralia Mandshurica"}
-    ,
-    {"english":"Manna","latin":"Manna Album Naturell"}
-    ,
-    {"english":"Maple Leaves","latin":"Acer Platanoides Folium"}
-    ,
-    {"english":"Maple Tree Bark","latin":"Acer Negundo Cortex"}
-    ,
-    {"english":"Marshmallow Herb","latin":"Althaeae Herba"}
-    ,
-    {"english":"Marshmallow Leaf","latin":"Althaeae Folium"}
-    ,
-    {"english":"Marshmallow Root Bark","latin":"Althaeae Radix Cortex"}
-    ,
-    {"english":"Mary Thistle Seed","latin":"Cardui Mariae Fructus"}
-    ,
-    {"english":"Mate Leaves","latin":"Mate Folium"}
-    ,
-    {"english":"Meadowsweet Flowers","latin":"Spiraeae Ulmariae Flos"}
-    ,
-    {"english":"Meadowsweet Herb","latin":"Spiraeae Ulmariae Herba"}
-    ,
-    {"english":"Wormseed Herb (Mexican)","latin":"Chenopodii Gerba"}
-    ,
-    {"english":"Wormwood Herb (Mexican)","latin":"Artemisiae Mexicana"}
-    ,
-    {"english":"Wormwood Hern (Mexican)","latin":"Artemisia Absinthum Mexicana"}
-    ,
-    {"english":"Milkthistle Cake","latin":"Cardui Mariae Fructus"}
-    ,
-    {"english":"Milkthistle Leaf","latin":"Cardui Mariae Folia"}
-    ,
-    {"english":"Milkthistle Seed","latin":"Cardui Mariae Fructus"}
-    ,
-    {"english":"Milkthistle Seed Oil","latin":"Cardui Mariae Oleum"}
-    ,
-    {"english":"Milkwort","latin":"Xysmalobium Undulatum"}
-    ,
-    {"english":"Mistletoe","latin":"Visci Albi Herba"}
-    ,
-    {"english":"Moschus Xylol","latin":"Almizcle Xylol"}
-    ,
-    {"english":"Mother of Thyme","latin":"Serpylli Herba"}
-    ,
-    {"english":"Motherwort Herb","latin":"Leonuri Card Herba"}
-    ,
-    {"english":"Mountain Knotgrass Herb","latin":"Aerva Lanata Herba"}
-    ,
-    {"english":"Mugwort Herb","latin":"Artemisiae Vulgaris Herba"}
-    ,
-    {"english":"Mugwort Root","latin":"Artemisia Vulgaris Radix"}
-    ,
-    {"english":"Muira Puama Lignum","latin":"Muira Puama Lignum"}
-    ,
-    {"english":"Mullein Flower","latin":"Verbasci Flos"}
-    ,
-    {"english":"Mullein Leaf","latin":"Verbasci Folium"}
-    ,
-    {"english":"Musk Mallow Husk","latin":"Amygdalum Husk"}
-    ,
-    {"english":"Musk Mallow Seed","latin":"Abelmoschi Semen"}
-    ,
-    {"english":"Myrrh Gum","latin":"Myrrhae Gummi"}
-    ,
-    {"english":"Myrtle Leaf","latin":"Myrtus Communis Folia"}
-    ,
-    {"english":"Neem Bark","latin":"Azadirachtae Cortex"}
-    ,
-    {"english":"Neem Flowers","latin":"Azadirachtae Flos"}
-    ,
-    {"english":"Neem Leaf","latin":"Azadirachtae Folium"}
-    ,
-    {"english":"Neem Seeds","latin":"Azadirachtae Semen"}
-    ,
-    {"english":"Nettle Leaves","latin":"Urticae Folium"}
-    ,
-    {"english":"Nettle Root","latin":"Urticae Radix"}
-    ,
-    {"english":"Nettle Seed","latin":"Urticae Semen"}
-    ,
-    {"english":"Noni Fruit","latin":"Morindae Citrifoliae Fructus"}
-    ,
-    {"english":"Nutmeg","latin":"Myristicae Nuces"}
-    ,
-    {"english":"Oak Bark","latin":"Quercus Cortex"}
-    ,
-    {"english":"Oat Grass","latin":"Avenae Sativa Herba"}
-    ,
-    {"english":"Oat Herb","latin":"Avena Sativa Herba"}
-    ,
-    {"english":"Oat Straw","latin":"Avena Sativa"}
-    ,
-    {"english":"Oats","latin":"Avena Sativa Semen"}
-    ,
-    {"english":"Oenanthe Crocata Root","latin":"Oenanthe Crocata Radix"}
-    ,
-    {"english":"Onion Flakes","latin":"Allium Cepa Flakes"}
-    ,
-    {"english":"Onions","latin":"Allium Cepa"}
-    ,
-    {"english":"Orange Blossom","latin":"Aurantii Dulcis Flores"}
-    ,
-    {"english":"Orange Fruit","latin":"Aurantii Dulcis"}
-    ,
-    {"english":"Orange Leaf","latin":"Aurantii Folium"}
-    ,
-    {"english":"Orange Peel","latin":"Aurantii Amari"}
-    ,
-    {"english":"Orangejuice Powder","latin":"Auranti Dulcis Succus Siccum Powder"}
-    ,
-    {"english":"Orangetts","latin":"Aurantii Imatur. Fructus"}
-    ,
-    {"english":"Orris Root","latin":"Iridis Rhizoma"}
-    ,
-    {"english":"Oyster Mushroom","latin":"Austernpilz"}
-    ,
-    {"english":"Paeony Flowers","latin":"Paeoniae Flos"}
-    ,
-    {"english":"Pale Coneflower Herb","latin":"Echinaceae Pall. Herba"}
-    ,
-    {"english":"Pansy Herb","latin":"Violae Tricol.C.Flos.Herba"}
-    ,
-    {"english":"Parsley","latin":"Petroselini Herba"}
-    ,
-    {"english":"Parsley Root","latin":"Petroselini Radix"}
-    ,
-    {"english":"Parsley Seed","latin":"Petroselini Fructus"}
-    ,
-    {"english":"Passionflower Herb","latin":"Passiflorae Herba"}
-    ,
-    {"english":"Patchouli Leaf","latin":"Patchouli Folium"}
-    ,
-    {"english":"Pau D'Arco Bark","latin":"Tabebuiae Cortex"}
-    ,
-    {"english":"Peanut","latin":"Arachis Hypogaea"}
-    ,
-    {"english":"Pear Leaf","latin":"Pyrum Folia"}
-    ,
-    {"english":"Pearl Millet Red","latin":"Pennisetum Glaucum Rubra"}
-    ,
-    {"english":"Pellitory Herb","latin":"Parietariae Herba"}
-    ,
-    {"english":"Pepper Long","latin":"Piperis Longae Fructus"}
-    ,
-    {"english":"Peppermint Herb","latin":"Menthae Pip. Herba"}
-    ,
-    {"english":"Peppermint Leaf","latin":"Menthae Pip.Folium"}
-    ,
-    {"english":"Periwinkle Leaf","latin":"Vincae Pervincae Folium"}
-    ,
-    {"english":"Phylanthi Nirurii Herb","latin":"Phylanthi Nirurii Herba"}
-    ,
-    {"english":"Pick-Tooth Fruits","latin":"Ammi Visnagae Fructus"}
-    ,
-    {"english":"Pimenta Fructus","latin":"Pimenta Fructus"}
-    ,
-    {"english":"Pine Shoots","latin":"Piper Aurium Herba"}
-    ,
-    {"english":"Pineapple","latin":"Ananas Comosus"}
-    ,
-    {"english":"Plantain Leaf","latin":"Plantago Majoris Folium"}
-    ,
-    {"english":"Pleurisy Root","latin":"Asclepiadis Tuberos Rhizoma"}
-    ,
-    {"english":"Pointleaf Manzanita","latin":"Arctostaphylos Pungens Folia"}
-    ,
-    {"english":"Poisen Nut","latin":"Vomica Nux"}
-    ,
-    {"english":"Poke Root","latin":"Phytolaccae Dec.Radix"}
-    ,
-    {"english":"Pomegranate Flower","latin":"Punica Granatum Flores"}
-    ,
-    {"english":"Pomegranate Seed","latin":"Punica Granatum Semen"}
-    ,
-    {"english":"Poplar Buds","latin":"Populi Gemma"}
-    ,
-    {"english":"Prince's Feather Leaf","latin":"Amaranthus Hypochondriacus Folia"}
-    ,
-    {"english":"Psyllium Husk","latin":"Psyllium Ovatae Testa"}
-    ,
-    {"english":"Psyllium Seed","latin":"Psyllium Ovatae Semen"}
-    ,
-    {"english":"Pumpkin Seed","latin":"Cucurbitae Semen"}
-    ,
-    {"english":"Purple Loosestrife","latin":"Lythrum Salicaria"}
-    ,
-    {"english":"Pygeum Bark","latin":"Pygei Africani Cortex"}
-    ,
-    {"english":"Quassia Wood","latin":"Quassiae Lignum"}
-    ,
-    {"english":"Raspberry Fruit","latin":"Rubi Idaei Fructus"}
-    ,
-    {"english":"Red Clover Tops","latin":"Trifolii Rubri Flos"}
-    ,
-    {"english":"Red Elder Bark","latin":"Alni Rubra Cortex"}
-    ,
-    {"english":"Red Ginseng","latin":"Ginseng Rubra Radix"}
-    ,
-    {"english":"Red Grape Leaf","latin":"Vitis Viniferae Folium"}
-    ,
-    {"english":"Red Padouk Wood","latin":"Santali Rubri"}
-    ,
-    {"english":"Red Poppy Flowers","latin":"Papaveris Rhoead. Flos"}
-    ,
-    {"english":"Red Raspberry Leaf","latin":"Rubi Idaei Folium"}
-    ,
-    {"english":"Red Sandspurry","latin":"Arenaria Rubra Herba"}
-    ,
-    {"english":"Red Sandwort","latin":"Arenariae Rubrae Herba"}
-    ,
-    {"english":"Rest Harrow Root","latin":"Ononidis Radix"}
-    ,
-    {"english":"Rhubarb Root","latin":"Rhei Sinensis Rhiz. Shuiken"}
-    ,
-    {"english":"Rhubarbroot","latin":"Rheum Palmatum Radix"}
-    ,
-    {"english":"Roman Chamomille Flowers","latin":"Chamomillae Romanae Flos"}
-    ,
-    {"english":"Roman Wormwood Herb","latin":"Absinthii Pontici Herba"}
-    ,
-    {"english":"Roman Wormwood Leaves","latin":"Absinthii Pontici Folia"}
-    ,
-    {"english":"Rooibos Tea","latin":"Aspalathi Folium"}
-    ,
-    {"english":"Rose buds","latin":"Rosae Flores"}
-    ,
-    {"english":"Rosehips Seed","latin":"Cynosbati Semen"}
-    ,
-    {"english":"Rosehips Shells","latin":"Cynosbati Fructus"}
-    ,
-    {"english":"Rosemary","latin":"Rosmarini Folium"}
-    ,
-    {"english":"Rowan Berries","latin":"Sorbi Fructus"}
-    ,
-    {"english":"Rupture Wort","latin":"Herniariae Spp Herba"}
-    ,
-    {"english":"Russian Milkvetch Herb","latin":"Astragalus Falcatus Herba"}
-    ,
-    {"english":"Safflower Petals","latin":"Carthami Flos"}
-    ,
-    {"english":"Sage","latin":"Salviae Off. Folium"}
-    ,
-    {"english":"Sage Trilopa","latin":"Salvia Triloba Folia"}
-    ,
-    {"english":"Saint Pauls Wort Herb","latin":"Siegesbeckiae Orien.Herba"}
-    ,
-    {"english":"Salmon Oil","latin":"Lachs Oleum"}
-    ,
-    {"english":"Sandlewood White","latin":"Santali Album Lignum"}
-    ,
-    {"english":"Sarsaparilla Indica Radix","latin":"Sarsaparilla Indica Radix"}
-    ,
-    {"english":"Sarsaparillae Root","latin":"Sarsaparillae Mex Rdx"}
-    ,
-    {"english":"Satavari","latin":"Asparagus Racemosus"}
-    ,
-    {"english":"Saw Palmetto Berries","latin":"Sabalae Serrul.Fructus"}
-    ,
-    {"english":"Saw Palometto Berry Oil","latin":"Sabalae serrul.Oleum"}
-    ,
-    {"english":"Scammony Root Mexican","latin":"Scammoniae Mexicanae Radix"}
-    ,
-    {"english":"Schisandra Fuits","latin":"Schizandre Chinen.Fruct."}
-    ,
-    {"english":"Sea Wormwood Herb","latin":"Artemisia Maritima Herba"}
-    ,
-    {"english":"Seabuckthorn Fruits","latin":"Hippophae Rhamnoidis Fructus"}
-    ,
-    {"english":"Sedi Acris Herba","latin":"Sedi Acris Herba"}
-    ,
-    {"english":"Senega Root","latin":"Senegae Radix"}
-    ,
-    {"english":"Senna Alexandrina Pods","latin":"Sennae Acutifolia Fructus"}
-    ,
-    {"english":"Senna Leaf","latin":"Sennae Tinnevelly Folium"}
-    ,
-    {"english":"Senna Pods","latin":"Sennae Tinnevelly Fructus"}
-    ,
-    {"english":"Sesame Seed","latin":"Sesamum Indicum Semen"}
-    ,
-    {"english":"Shepherd's Purse Herb","latin":"Bursae Pastoris Herba"}
-    ,
-    {"english":"Siberian Fir Needles","latin":"Abies Sibirica Summitates"}
-    ,
-    {"english":"Sibirian Ginseng","latin":"Eleutherococci Radix"}
-    ,
-    {"english":"Silverweed Herb","latin":"Anserinae Herba"}
-    ,
-    {"english":"Silverweed Radix","latin":"Anserinae Radix"}
-    ,
-    {"english":"Skullcap Herb","latin":"Scutellariae Latifolia Herba"}
-    ,
-    {"english":"Slippery Elm Bark","latin":"Ulmus Rubra Cortex"}
-    ,
-    {"english":"Sloe Berries","latin":"Pruni Spinosae Fructus"}
-    ,
-    {"english":"Sloe Flowers","latin":"Pruni Spinosae Flores"}
-    ,
-    {"english":"Small Leaved Lime Bark","latin":"Tilia Cordata Cortex"}
-    ,
-    {"english":"Smilax Root","latin":"Sarsaparillae Smilax Radix"}
-    ,
-    {"english":"Snapdragon Yellow Petals","latin":"Antirrhinum Majus Flores"}
-    ,
-    {"english":"Soap Herb","latin":"Saponariae Off. Herba"}
-    ,
-    {"english":"Soap Root","latin":"Saponariae Off. Radix"}
-    ,
-    {"english":"Soapnut Seeds","latin":"Soapnut Semen"}
-    ,
-    {"english":"Soapnutbark","latin":"Sapindus Fructus Cortex"}
-    ,
-    {"english":"Soldier's Palm","latin":"Vincae Roseae Folium"}
-    ,
-    {"english":"Soldier's Palm Root","latin":"Vincae Roseae Radix"}
-    ,
-    {"english":"Southernwood Herb","latin":"Abrotani Herba"}
-    ,
-    {"english":"Spanish Fly","latin":"Cantharis Hispanica"}
-    ,
-    {"english":"Spearmint Leaf","latin":"Menthae Crispae Folium"}
-    ,
-    {"english":"Spikenard Root","latin":"Araliae Racemosae Radix"}
-    ,
-    {"english":"Spinach Leaf","latin":"Spinacia Folium"}
-    ,
-    {"english":"Spirulinae Alga","latin":"Spirulinae Alga"}
-    ,
-    {"english":"Squawwine Herb","latin":"Mitchellae Repens Herba"}
-    ,
-    {"english":"St Johnswort","latin":"Hyperici Herba Flores"}
-    ,
-    {"english":"Star Anis","latin":"Anisi Stell. Fructus"}
-    ,
-    {"english":"Star Grass Root","latin":"Aletris Farinosae Radix"}
-    ,
-    {"english":"Staranis","latin":"Anisi Stell. Fructus"}
-    ,
-    {"english":"Stevia  Leaf","latin":"Steviae Rebaud. Folium"}
-    ,
-    {"english":"Stone Root","latin":"Collinsoniae Canad. Radix"}
-    ,
-    {"english":"Strawberry Leaf","latin":"Fragariae Vescae Herba"}
-    ,
-    {"english":"Sundew Ramentacea","latin":"Droserae Rament.Herba"}
-    ,
-    {"english":"Sunflower Seed","latin":"Helianthi Annui Fructus"}
-    ,
-    {"english":"Sweet Annie Herb","latin":"Artemisiae Annua Herba"}
-    ,
-    {"english":"Sweet Chestnut Leaf","latin":"Castanae Vesca Folia"}
-    ,
-    {"english":"Sweet Potato","latin":"Hypoxis Rooperi Tuber"}
-    ,
-    {"english":"Sweet Wormwood Herb","latin":"Artemisiae Annua Herba"}
-    ,
-    {"english":"Sweetclover Flowers","latin":"Meliloti Officinlis Flos"}
-    ,
-    {"english":"Sweetclover Yellow","latin":"Meliloti Off.  Herba"}
-    ,
-    {"english":"Sweetflag Root","latin":"Calami Rhizoma"}
-    ,
-    {"english":"Syzygii Jambolani Fruits","latin":"Syzygii Jambolani Fructus"}
-    ,
-    {"english":"Tamarind Pulp","latin":"Tamarindorum Pulpa"}
-    ,
-    {"english":"Tansy Herb","latin":"Tanacetii Vulgaris Herba"}
-    ,
-    {"english":"Tea Ceylon","latin":"Thea Nigra Ceylon"}
-    ,
-    {"english":"Thyme Herb","latin":"Thymi Vulgaris Herba"}
-    ,
-    {"english":"Toadstool","latin":"Agaricus Muscariae"}
-    ,
-    {"english":"Tormentilla Root","latin":"Tormentillae Rhizoma"}
-    ,
-    {"english":"Tribulus Terrestris Fruit","latin":"Tribulus Terrestris Fructus"}
-    ,
-    {"english":"Trifolii Fibrini Folium","latin":"Trifolii Fibrini Folium"}
-    ,
-    {"english":"Trifolii Rubri Flos","latin":"Trifolii Rubri Flos"}
-    ,
-    {"english":"Tulsi Seed","latin":"Ocimum Sanctum Semen"}
-    ,
-    {"english":"Turmeric Root","latin":"Curcumae Longae Rhizoma"}
-    ,
-    {"english":"Uva Ursi Leaf","latin":"Uvae Ursi Folium"}
-    ,
-    {"english":"Valerian Root","latin":"Valerianae Off.Radix"}
-    ,
-    {"english":"Valeriana Root","latin":"Valerianae Root"}
-    ,
-    {"english":"Vervain Herb","latin":"Verbenae Off.Herba"}
-    ,
-    {"english":"Violet Flowers","latin":"Violae Odoratae Flos"}
-    ,
-    {"english":"Virginia Snake Root","latin":"Aristolochia Serpentaria Radix"}
-    ,
-    {"english":"Vitex Fruit","latin":"Agni Casti Fructus"}
-    ,
-    {"english":"Walnut Hulls","latin":"Juglandis Nucum Peric."}
-    ,
-    {"english":"Walnut Leaf","latin":"Juglandis Folium"}
-    ,
-    {"english":"Water Mint Herb","latin":"Menthae Aquaticae Herba"}
-    ,
-    {"english":"Watercress","latin":"Nasturtii Herba"}
-    ,
-    {"english":"White Agaric","latin":"Agaricus Abus"}
-    ,
-    {"english":"White Fir Oil","latin":"Abies Alba Oleum"}
-    ,
-    {"english":"White Mullberry Bark","latin":"Morus Alba Cortex"}
-    ,
-    {"english":"White Tea","latin":"Theae Alba Folium"}
-    ,
-    {"english":"White Veratrum Root","latin":"Veratri Albi Rhizoma"}
-    ,
-    {"english":"White Womrwood","latin":"Artemisia Alba Turra"}
-    ,
-    {"english":"Wild Cherry Twicksbark","latin":"Pruni Virginia Cortex"}
-    ,
-    {"english":"Wild Garlic","latin":"Allii Ursini Herba"}
-    ,
-    {"english":"Wild Indigo Root","latin":"Baptisiae Ssp Radix"}
-    ,
-    {"english":"Wild Lettuce","latin":"Lactucae Virosae Herba"}
-    ,
-    {"english":"Wild Yam Root","latin":"Dioscoreae Vill. Radix"}
-    ,
-    {"english":"Willow Bark","latin":"Salicis Cortex"}
-    ,
-    {"english":"Winter Savory Asta","latin":"Saturejae Mont. Asta"}
-    ,
-    {"english":"Winter Savory Herb","latin":"Saturejae Mont. Herba"}
-    ,
-    {"english":"Witch Hazel Bark","latin":"Hamamelidis Cortex"}
-    ,
-    {"english":"Witch Hazel Leaf","latin":"Hamamelidis Folium"}
-    ,
-    {"english":"Wood Betony Herb","latin":"Betonicae Herba"}
-    ,
-    {"english":"Woodruff Herb","latin":"Asperulae Odoratae Herba"}
-    ,
-    {"english":"Wormweed Seed","latin":"Artemisia Cina Semen"}
-    ,
-    {"english":"Wormwood Herb","latin":"Absinthii Vulgaris Herba"}
-    ,
-    {"english":"Wormwood Leaves","latin":"Absinthii Vulgaris Folium"}
-    ,
-    {"english":"Woundwort Flower","latin":"Anthyllidis Vulnerariae Flos"}
-    ,
-    {"english":"Woundwort Herb","latin":"Anthyllidis Vulnerariae Herba"}
-    ,
-    {"english":"Yarrow Flowers","latin":"Millefolii Flos"}
-    ,
-    {"english":"Yarrow Herb","latin":"Millefolii Herba"}
-    ,
-    {"english":"Yellow Dock Root","latin":"Rumicis Crispi Radix"}
-    ,
-    {"english":"Yellow Lady's Bedstraw Herb","latin":"Galii Veri Herba"}
-    ,
-    {"english":"Yellowwood","latin":"Citrinum Lignum"}
-    ,
-    {"english":"Yohimbe Bark","latin":"Yohimbe Cortex"}
-    ,
-    {"english":"Yucca Root","latin":"Yucca Radix"}
-    ,
-    {"english":"Zedoary Root","latin":"Zedoariae Rhizoma"}
-  ]
+{"english":"Abrus Precatorius Seed","latin":"Abrus Precatorius Seed"}
+,
+{"english":"Acaciae Flowers","latin":"Acaciae Flos"}
+,
+{"english":"Acai Fruit","latin":"Acai Fructus"}
+,
+{"english":"Acai Palm Fruit","latin":"Acai Palm Fruit"}
+,
+{"english":"Acalypha Indica","latin":"Acalypha Indica"}
+,
+{"english":"Acerola Fruit","latin":"Acerola Fructus"}
+,
+{"english":"Aconitum Root","latin":"Aconiti Napelli Tuber"}
+,
+{"english":"Adonis Vernalis Herb","latin":"Adonis Vernalis Herba"}
+,
+{"english":"Aegopodium Podagraria Herba","latin":"Aegopodium Podagraria Herba"}
+,
+{"english":"Agar Agar","latin":"Agar Agar"}
+,
+{"english":"Agaricus","latin":"Agaricus"}
+,
+{"english":"Agathosma Crenulata","latin":"Agathosma Crenulata"}
+,
+{"english":"Agnus Castus Leaves","latin":"Agni Casti Folia"}
+,
+{"english":"Agraphis Nutans Herba","latin":"Agraphis Nutans Herba"}
+,
+{"english":"Agrimoni Herb","latin":"Agrimoniae Herba"}
+,
+{"english":"Ajuga Reptans Herba","latin":"Ajuga Reptans Herba"}
+,
+{"english":"Alaria Esculenta","latin":"Alaria Esculenta"}
+,
+{"english":"Albizzia Julibrissin Leaf","latin":"Albizzia Julibrissin Foliae"}
+,
+{"english":"Aleurites Moluccana Leaf","latin":"Aleurites Moluccana Folia"}
+,
+{"english":"Alfalfa","latin":"Medicaginis Sativa"}
+,
+{"english":"Alkanet Root","latin":"Alkannae Radix"}
+,
+{"english":"Almond Bitter","latin":"Amygdalae Amarae Semen"}
+,
+{"english":"Almond Flower","latin":"Amygdalum Flores"}
+,
+{"english":"Almond Sweet","latin":"Amygdalae Dulcis Semen"}
+,
+{"english":"Aloe Cap.","latin":"Aloe Cap."}
+,
+{"english":"Aloe Leaf","latin":"Aloe Vera Folia"}
+,
+{"english":"Aloe Vera Gel","latin":"Aloe Vera Gel"}
+,
+{"english":"Alps Parsley-Piert","latin":"Alchemillae Alpinae"}
+,
+{"english":"Alstonia Constricta Bark","latin":"Alstonia Constricta Cortex"}
+,
+{"english":"Alyssoides Herb","latin":"Alyssoides Herba"}
+,
+{"english":"Amaranthis","latin":"Amaranthus"}
+,
+{"english":"American Hemp Root","latin":"Apocyni Cannabini Radix"}
+,
+{"english":"American Hemp Seed","latin":"Apocyni Cannabini Seed"}
+,
+{"english":"Ammonium Glycyrrhizate","latin":"Ammonium Glycyrrhizate"}
+,
+{"english":"Anagallidis Herb","latin":"Anagallidis Herba"}
+,
+{"english":"Anethi Leaf","latin":"Anethi Folia"}
+,
+{"english":"Angelica Leaf","latin":"Angelicae Folia"}
+,
+{"english":"Angelica Root","latin":"Angelicae Radix"}
+,
+{"english":"Angelica Seed","latin":"Angelicae Fructus"}
+,
+{"english":"Angelicae Acutiloba Radix","latin":"Angelicae Acutiloba Radix"}
+,
+{"english":"Angostura Bark","latin":"Angosturae Verus Cortex"}
+,
+{"english":"Anis Seed","latin":"Anisis Vulg. Fructus"}
+,
+{"english":"Annatto Seed","latin":"Annatto Semen"}
+,
+{"english":"Annona Muricata Leaf","latin":"Annona Muricata Folia"}
+,
+{"english":"Apple","latin":"Mali Fructus"}
+,
+{"english":"Apple Leaf","latin":"Mali Folium"}
+,
+{"english":"Apricot","latin":"Apricot"}
+,
+{"english":"Apricot Tree Leaves","latin":"Angelicae Sylvestris"}
+,
+{"english":"Aquilegiae Vulgaris Herb","latin":"Aquilegiae Vulgaris Herba"}
+,
+{"english":"Arabicum Gumen","latin":"Arabicum gum Kordofan"}
+,
+{"english":"Argan Oil","latin":"Argan Oil"}
+,
+{"english":"Arnica Chamissonis Flower","latin":"Arnica Chamissonis Flores"}
+,
+{"english":"Arnica Herb (Mexican)","latin":"Arnica Mexicanae Herba"}
+,
+{"english":"Arnica Herb (Montana)","latin":"Arnicae Montana Herba"}
+,
+{"english":"Arnica Montana Flowers","latin":"Arnicae Montanae Flores"}
+,
+{"english":"Aronia fruit","latin":"Aronia Fructus"}
+,
+{"english":"Artichoke Leaf","latin":"Cynarae Folia"}
+,
+{"english":"Asa Foetida Gummi","latin":"Asa Foetida Gummi"}
+,
+{"english":"Asarum Root","latin":"Asari cum Herba"}
+,
+{"english":"Ash Bark","latin":"Fraxini Cortex"}
+,
+{"english":"Ashwanga Root","latin":"Withania som. Radix"}
+,
+{"english":"Aspalathi Folium","latin":"Aspalathi Folium"}
+,
+{"english":"Asparagus","latin":"Asparagi Spross"}
+,
+{"english":"Astaxanthin Oil","latin":"Astaxanthin Oleum"}
+,
+{"english":"Astragallus Root","latin":"Astragallus Membranaceus"}
+,
+{"english":"Astragalus Adsurgens Herb","latin":"Astragalus Adsurgens Herba"}
+,
+{"english":"Astrocaryum Tacuma Seed","latin":"Astrocaryum Tacuma Semen"}
+,
+{"english":"Atractylodis Root","latin":"Atractylodis Radix"}
+,
+{"english":"Bamboo Leaf","latin":"Bamboo Folia"}
+,
+{"english":"Baobab Fruit Pulp","latin":"Adansonia dig. Fruct."}
+,
+{"english":"Baobab Oil","latin":"Adansonia dig. Oleum"}
+,
+{"english":"Barberry Root","latin":"Berberidis Radix"}
+,
+{"english":"Basil Leaf","latin":"Basilici Herba"}
+,
+{"english":"Bay Leaves","latin":"Lauri Folia"}
+,
+{"english":"Bearbind Herb","latin":"Convolvuli Herba"}
+,
+{"english":"Beet Root","latin":"Beta Vulgaris"}
+,
+{"english":"Belladonna Leaf","latin":"Belladonnae Folia"}
+,
+{"english":"Belladonna Root","latin":"Belladonnae Radix"}
+,
+{"english":"Bengal Quince","latin":"Aegle Marmelos"}
+,
+{"english":"Benzoe Gum","latin":"Benzoe Resina"}
+,
+{"english":"Bertram Herb","latin":"Anacyclus Pyrethrum Herba"}
+,
+{"english":"Bertram Root","latin":"Anacyclus Pyrethrum"}
+,
+{"english":"Bilberry Fruit","latin":"Myrtilli Fructus"}
+,
+{"english":"Bilberry Leaf","latin":"Myrtilli Folium"}
+,
+{"english":"Birch Bark","latin":"Betulae Cortex"}
+,
+{"english":"Birch Leaf","latin":"Betulae Folium"}
+,
+{"english":"Birthwort Herb","latin":"Aristolochia Clematitis Herba"}
+,
+{"english":"Bistort Root","latin":"Bistortae Rhizoma"}
+,
+{"english":"Bitter Melon Seed","latin":"Momordicae Charantiae"}
+,
+{"english":"Black Adder Herb","latin":"Agastache Rugosa Herb"}
+,
+{"english":"Black Alder Bark","latin":"Alnus Glutinosa Cortex"}
+,
+{"english":"Black Choke Berry","latin":"Aronia Fructus"}
+,
+{"english":"Black Cohosh Root","latin":"Cimicifugae Racem. Radix"}
+,
+{"english":"Black Current Leaf","latin":"Ribis Nigri Folium"}
+,
+{"english":"Black Garlic","latin":"Alii Ursini Ferment."}
+,
+{"english":"Black Haw Bark","latin":"Viburni Rrun. Arb.Cortex"}
+,
+{"english":"Black Hellebor Root","latin":"Hellebori Nigri Radix"}
+,
+{"english":"Black Henbane Leaf","latin":"Hyoscyami Niger Folium"}
+,
+{"english":"Black Locust Flowers","latin":"Robiniae Pseudoacaciae"}
+,
+{"english":"Black Raddish Root","latin":"Raphani Sat Nigri Radix"}
+,
+{"english":"Blackberry Leaf","latin":"Rubi Fruticosi Folium"}
+,
+{"english":"Bladderwrack","latin":"Vesiculosus Fucus Flakes"}
+,
+{"english":"Blessed Thistle Herb","latin":"Cardui Ben.Herba"}
+,
+{"english":"Blind Nettle Herb","latin":"Lami Albi Herba"}
+,
+{"english":"Bloodroot Herb","latin":"Sanguinariae Hherba"}
+,
+{"english":"Blue Mallow Flowers","latin":"Malvae Mauritianae Flos"}
+,
+{"english":"Boldo Leaves","latin":"Boldo Folium"}
+,
+{"english":"Borage","latin":"Borraginis"}
+,
+{"english":"Broom Heather Herb","latin":"Ericae Herba"}
+,
+{"english":"Buchu","latin":"Agathosma Betulina"}
+,
+{"english":"Buckthorn Bark","latin":"Frangulae Cortex"}
+,
+{"english":"Burdock Root","latin":"Bardanae Radix"}
+,
+{"english":"Butcher's Broom","latin":"Rusci Aculeati Rhizoma"}
+,
+{"english":"Butterbur Purple Leaf","latin":"Petasitidis Folium"}
+,
+{"english":"Butternut Bark","latin":"Juglans Cinerea Cortex"}
+,
+{"english":"Cactus","latin":"Opuntia Nopal"}
+,
+{"english":"Calendula Flower","latin":"Calendulae c.Calice Flos"}
+,
+{"english":"Calofornia Poppy Herb","latin":"Escholziae Calif.Herba"}
+,
+{"english":"Camala","latin":"Kamala"}
+,
+{"english":"Camomile Flower","latin":"Chamomillae Vulg. Flos"}
+,
+{"english":"Camomile Pollen","latin":"Chamomillae Vulg. Pollen"}
+,
+{"english":"Canada Snake Root","latin":"Asarum Canadensis Radix"}
+,
+{"english":"Caraway Seed","latin":"Carvi Fructus"}
+,
+{"english":"Cardamon Fruit","latin":"Cardamomi Fructus"}
+,
+{"english":"Carob Fruit","latin":"Ceratoniae Siliq.Fructus"}
+,
+{"english":"Cascara Sagrada Bark","latin":"Cascarae Sagr. Cortex"}
+,
+{"english":"Cascarilla Bark","latin":"Cascarillae Cortex"}
+,
+{"english":"Cassia Fistula Fruit","latin":"Cassiae Fistula Fructus"}
+,
+{"english":"Catechu Black","latin":"Catechu Nigrum"}
+,
+{"english":"Catnip","latin":"Nepetae Cat."}
+,
+{"english":"Catuaba","latin":"Erythroxylum Catuaba Cortex"}
+,
+{"english":"Cedarwood Chips","latin":"Cedri Cirginici Lignum Chopped"}
+,
+{"english":"Celery","latin":"Apii Grav."}
+,
+{"english":"Centaury Herb","latin":"Centaurii Herba"}
+,
+{"english":"Chaga Mushroom","latin":"Betulinus Fungis"}
+,
+{"english":"Chaparral Herb","latin":"Larreae Mex. Herba"}
+,
+{"english":"Chaste Tree Flowers","latin":"Agni Casti Flores"}
+,
+{"english":"Chaste Tree Leaves","latin":"Agni Casti Folium"}
+,
+{"english":"Chaste Tree Oil","latin":"Agni Casti Oleum"}
+,
+{"english":"Chaste Tree Seed","latin":"Agni Casti Fructus"}
+,
+{"english":"Cherry Stalks","latin":"Cerasi Stipites"}
+,
+{"english":"Chervil","latin":"Anthriscus Cerefolium"}
+,
+{"english":"Chia Seed","latin":"Salviae Hispanica Semen"}
+,
+{"english":"Chickweed","latin":"Stellariae Mediae"}
+,
+{"english":"Chicoree Root","latin":"Cichoriae Radix"}
+,
+{"english":"Chieves","latin":"Allii Schoenoprasi Herba"}
+,
+{"english":"Chilean Wineberry","latin":"Aristotelia Chilensis Fructus"}
+,
+{"english":"Chiretta Green","latin":"Andrographidis Herba"}
+,
+{"english":"Chirettae Brown","latin":"Chiretae Swertia Herba"}
+,
+{"english":"Chlorella Alga","latin":"Chlorellae Alga"}
+,
+{"english":"Chokeberry Leaves","latin":"Aronia Folia"}
+,
+{"english":"Chrysantellum","latin":"Chrysanthellum Americanum"}
+,
+{"english":"Cinchona Bark Red","latin":"Chinae Succirubr.Cortex"}
+,
+{"english":"Cinnamomi Alba Quilling","latin":"Cinnamomi Alba Quillings"}
+,
+{"english":"Cinnamomi Quillings","latin":"Cinnamomi Quillings"}
+,
+{"english":"Cinnamon Stick","latin":"Cinnamomi C.Vera"}
+,
+{"english":"Clary Sage","latin":"Salviae Sclareae Herba"}
+,
+{"english":"Cleavers Herb","latin":"Galii Aparinis Herba"}
+,
+{"english":"Clover Herb","latin":"Trifolii Rubri Herba"}
+,
+{"english":"Cloves","latin":"Caryophylli Flos"}
+,
+{"english":"Clubmoss Herb","latin":"Lycopodii Herba"}
+,
+{"english":"Clubmoss Spore","latin":"Lycopodii Clavatum Sporae"}
+,
+{"english":"Cocillianae Bark","latin":"Cocillianae Cortex"}
+,
+{"english":"Coffeebeans, Green","latin":"Arabica"}
+,
+{"english":"Colanuts","latin":"Colae Nuces"}
+,
+{"english":"Coloquint / Bitterapple","latin":"Colocynthidis Fructus"}
+,
+{"english":"Coltsfoot","latin":"Farfarae Folium"}
+,
+{"english":"Comfrey Herb","latin":"Consolidae Herba"}
+,
+{"english":"Comfrey Leaf","latin":"Consolidae Folium"}
+,
+{"english":"Comfrey Root","latin":"Consolidae Radix"}
+,
+{"english":"Common Broom Herb","latin":"Spartii Scoparii Herba"}
+,
+{"english":"Common Carline Root","latin":"Carlinae Radix"}
+,
+{"english":"Common Mallow Flowers","latin":"Malvae Sylv. Flos"}
+,
+{"english":"Common Mallow Leaves","latin":"Malvae Sylv. Folia"}
+,
+{"english":"Common Wormwood Herb","latin":"Absinthii Vulgaris Herba"}
+,
+{"english":"Condurango Bark","latin":"Condurango Mataperro Mortex"}
+,
+{"english":"Coneflower Herb","latin":"Echinaceae Ang Herba"}
+,
+{"english":"Coneflower Herb","latin":"Echinaceae Purp.Herba"}
+,
+{"english":"Coneflower Root","latin":"Echinaceae Purp.Radix"}
+,
+{"english":"Conyza Canadensis Herb","latin":"Conyza Canadensis Herba"}
+,
+{"english":"Copalchi Bark","latin":"Copalchi Cortex"}
+,
+{"english":"Coriander Herb","latin":"Coriandri Herba"}
+,
+{"english":"Coriander Leaves","latin":"Coriandri Folium"}
+,
+{"english":"Coriander Oil","latin":"Coriandri Oleum"}
+,
+{"english":"Coriander Seed","latin":"Coriandri Fructus"}
+,
+{"english":"Cowberry Leaves","latin":"Vitis Idaeae Folium"}
+,
+{"english":"Cowhage Fruit","latin":"Mucuna Pruiens Fruct"}
+,
+{"english":"Cowslip Flower","latin":"Primulae Flos"}
+,
+{"english":"Cowslip Root","latin":"Primulae Radix"}
+,
+{"english":"Cramp Bark","latin":"Viburni Opuli Cortex"}
+,
+{"english":"Cubeb Berries","latin":"Cubebae Fructus"}
+,
+{"english":"Cumin Seed","latin":"Cumini Fructus"}
+,
+{"english":"Curcuma","latin":"Curcumae Longae Rhiz."}
+,
+{"english":"Cornflower (Blue/Red)","latin":"Cyani Coerulei"}
+,
+{"english":"Damar Gum","latin":"Damar Gummi"}
+,
+{"english":"Damiana Leaf","latin":"Damianae Mex Folium"}
+,
+{"english":"Dandelion Flower","latin":"Taraxaci Flores"}
+,
+{"english":"Dandelion Leaf","latin":"Taraxaci Folium"}
+,
+{"english":"Dandelion Root","latin":"Taraxaci Radix"}
+,
+{"english":"Dark Cloud Herb with Root","latin":"Andrograph.Herb.c.Rad."}
+,
+{"english":"Desmoidum Leaf","latin":"Desmodium Folium"}
+,
+{"english":"Devils Dunk","latin":"Asa Foetida Gummi-Resina"}
+,
+{"english":"Devilsclaw","latin":"Harpagophyti Spp Radix"}
+,
+{"english":"Devilsclaw Root","latin":"Harpagophyti Proc.Radix"}
+,
+{"english":"Dill Leaf","latin":"Anethi Folium"}
+,
+{"english":"Dillseed","latin":"Anethi Fructus"}
+,
+{"english":"Doggrass","latin":"Graminis Cynodon.Rhiz."}
+,
+{"english":"Dong Quai Root","latin":"Angelicae Sinensis Radix"}
+,
+{"english":"Downy Burdock","latin":"Arctium Tomentosum"}
+,
+{"english":"Dragonblood","latin":"Draconis, Resina"}
+,
+{"english":"Dwarf Elder Fruits","latin":"Sambuci Ebuli Fructus"}
+,
+{"english":"Eastern Arbor Vitae Herb","latin":"Thujae Occidentalis Herba"}
+,
+{"english":"Eggshell","latin":"Eierschale"}
+,
+{"english":"Elder Flowers","latin":"Sambuci Flos"}
+,
+{"english":"Elderberries","latin":"Sambuci Nigra Fruct"}
+,
+{"english":"Elderberry Seed Oil","latin":"Sambuci Nigra Fruct Oleum"}
+,
+{"english":"Elephant Garlic","latin":"Allium Ampeloprasum"}
+,
+{"english":"Eucalyptus Leaf","latin":"Eucalyptii Globuli Folium"}
+,
+{"english":"European Avens Herb","latin":"Gei Urbani Herba"}
+,
+{"english":"European Avens Root","latin":"Gei Urbani Radix"}
+,
+{"english":"Eyebright Herb","latin":"Euphrasiae Rostk.Herba"}
+,
+{"english":"Fennel Seed Bitter","latin":"Foeniculi Amarae Fructus"}
+,
+{"english":"Fennel Seed Sweet","latin":"Foeniculi Fructus Dulcis"}
+,
+{"english":"Fenugreek Seed","latin":"Foenugraeci Semen"}
+,
+{"english":"Feverfew Leaf","latin":"Chrysanth.Parth.Folia"}
+,
+{"english":"Flaxseed Brown","latin":"Lini Semen Braun"}
+,
+{"english":"Fo Ti","latin":"Polygonum Multiflorum Radix"}
+,
+{"english":"Foenugreek Seed","latin":"Foenugraeci Semen"}
+,
+{"english":"Frankincense","latin":"Olibanum Gummi"}
+,
+{"english":"Fumitory Herb","latin":"Fumariae Herba"}
+,
+{"english":"Galanga Root","latin":"Galangae Minoris Rhizoma"}
+,
+{"english":"Garcinia Fruit","latin":"Garciniae Camb.Fructus"}
+,
+{"english":"Garden Orache Herb","latin":"Atriplex Hortensis Herba"}
+,
+{"english":"Garlic","latin":"Allii Sativi Bulbus"}
+,
+{"english":"Gentian Root","latin":"Gentiana Lutea Radix"}
+,
+{"english":"Giant Hyssop","latin":"Agastache Mexicana"}
+,
+{"english":"Ginger Root","latin":"Zingiberis Rhizoma"}
+,
+{"english":"Ginkgo Leaf","latin":"Ginkgo Bilobae Folium"}
+,
+{"english":"Ginseng Panax Root","latin":"Ginseng Panax Radix"}
+,
+{"english":"Ginseng Root Red","latin":"Ginseng Rubra Radix"}
+,
+{"english":"Ginseng Tails","latin":"Ginseng Panax Radix Tails"}
+,
+{"english":"Glucomanan","latin":"Amorphophallii Kon.Radix"}
+,
+{"english":"Goats Rue Herb","latin":"Galegae Officinalis Herba"}
+,
+{"english":"Goji Fruits","latin":"Lycii Fructus"}
+,
+{"english":"Goldenrod Herb","latin":"Solidaginis Virg.Herba"}
+,
+{"english":"Goldenseal Root","latin":"Hydrastis Can.Rhizoma"}
+,
+{"english":"Gotu Kola Herb","latin":"Hydrocotylis Mad.Herba"}
+,
+{"english":"Grains of Paradise","latin":"Aframomum Melegueta Semen"}
+,
+{"english":"Grapefruit Peel","latin":"Citri Auranti Pericapium"}
+,
+{"english":"Grapefruit Seeds","latin":"Citri Auranti Semen"}
+,
+{"english":"Gray Alder, Cones","latin":"Alnus Incana, Conus"}
+,
+{"english":"Greater Burdock Roots","latin":"Arctium Lappa Radix"}
+,
+{"english":"Ground Ivy Herb","latin":"Hederae Terrestris Herba"}
+,
+{"english":"Guaiac Wood","latin":"Guajaci Lignum"}
+,
+{"english":"Guaranaseed","latin":"Guaranae Semen"}
+,
+{"english":"Gujak Resin","latin":"Guajaci Resina"}
+,
+{"english":"Gymnema Flower","latin":"Gymnemae Silv. Folium"}
+,
+{"english":"Hawthorn Berries","latin":"Crataegi Fructus"}
+,
+{"english":"Hawthorn Leaf w Flower","latin":"Crataegi c Flore Fol"}
+,
+{"english":"Heatherflower","latin":"Ericae Flos"}
+,
+{"english":"Henna Black","latin":"Hennae Folium Schwarz"}
+,
+{"english":"Henna Neutral","latin":"Hennae Folium Neutral"}
+,
+{"english":"Hennapowder Red","latin":"Hennae Folium Red"}
+,
+{"english":"Herb Robert","latin":"Geranii Robertiani Herba"}
+,
+{"english":"Hibiscus Flowers","latin":"Hibiscus Sabdariffae Flos"}
+,
+{"english":"Hollow Tooth Herb","latin":"Galeopsidis Herba"}
+,
+{"english":"Honeybush Tea","latin":"Cyclopiae Spec.Fol."}
+,
+{"english":"Hops","latin":"Humuli Lupuli"}
+,
+{"english":"Horsechestnut","latin":"Hippocastani Semen"}
+,
+{"english":"Horsegram Root","latin":"Dolichos Biflorus Radix"}
+,
+{"english":"Horseradish Root","latin":"Armorarciae Rusticana Radix"}
+,
+{"english":"Horsetail","latin":"Equiseti Arv. Herba"}
+,
+{"english":"Hyperici Herba","latin":"Hyperici Herba Fl"}
+,
+{"english":"Hyssop Herb","latin":"Hyssopi Herba"}
+,
+{"english":"Iceland Moss","latin":"Islandicus Lichen"}
+,
+{"english":"Indian Tobacco","latin":"Lobelia Herb"}
+,
+{"english":"Irish Moss","latin":"Carrageen Llichen Naturalis"}
+,
+{"english":"Ivy Leaf","latin":"Hederae Helicis Folium"}
+,
+{"english":"Jaborandi Leaf","latin":"Jaborandi Folium"}
+,
+{"english":"Jack-in-the-Pulpit Roots","latin":"Arisaema Triphyllum Radix"}
+,
+{"english":"Jalap Root","latin":"Jalapae Tuber"}
+,
+{"english":"Jamaica Dogwood Bark","latin":"Piscidia Erythrina Cortex"}
+,
+{"english":"Java Tea","latin":"Orthosiphonis Stam.Fol."}
+,
+{"english":"Jequirity","latin":"Abrus Precatorius"}
+,
+{"english":"Juniper Berries","latin":"Juniperi Fructus"}
+,
+{"english":"Kava Kava Root Bark","latin":"Kava-Kava Radix Cortex"}
+,
+{"english":"Kava-Kava Rhizoma Chips","latin":"Kava-Kava Rhizoma Chips"}
+,
+{"english":"Kelp","latin":"Ascophyllum Nodosum"}
+,
+{"english":"Klamath Blue Green Algae","latin":"Aphanizomenon Flos-Aquae"}
+,
+{"english":"Kudzu Radix","latin":"Pueraria Lobata Radix"}
+,
+{"english":"Lackspur Roots","latin":"Calcatrippae Radix"}
+,
+{"english":"Lady's Mantle Flowers","latin":"Alchemillae Vulg. Flos"}
+,
+{"english":"Lady's Mantle Herb","latin":"Alchemillae Vulg. Herba"}
+,
+{"english":"Lavender Flowers Grey","latin":"Lavandulae Flos Albanien"}
+,
+{"english":"Leek Flakes","latin":"Allii Ampeloprasi Flakes"}
+,
+{"english":"Lemon Beebrush","latin":"Aloysia Citrodora"}
+,
+{"english":"Lemon Peel","latin":"Citri Pericarpium"}
+,
+{"english":"Lemon Verbena","latin":"Verbenae Odor.Folium"}
+,
+{"english":"Lemonbalm Herb","latin":"Melissae Off.Herba"}
+,
+{"english":"Lemonbalm Leaf","latin":"Melissae Off.Folium"}
+,
+{"english":"Lemongrass","latin":"Andropogonis Citr.Herba"}
+,
+{"english":"Licorice Extract","latin":"Liquiritiae Succus"}
+,
+{"english":"Licorice Root","latin":"Liquiritiae Radix"}
+,
+{"english":"Life Everlasting Flowers","latin":"Helichrysi Flos"}
+,
+{"english":"Lily of the Valley","latin":"Convallariae Maj. Herba"}
+,
+{"english":"Lime Fruits","latin":"Citri Latifolia Fructus"}
+,
+{"english":"Lime Peel","latin":"Citri Latifolia Peric."}
+,
+{"english":"Limebalm Leaves","latin":"Melissae Off.Folium"}
+,
+{"english":"Limosin Wood","latin":"Limousinae Lignum"}
+,
+{"english":"Linden Flowers","latin":"Tiliae Argentea Flores"}
+,
+{"english":"Linden Leaves","latin":"Tiliae Off. Folium"}
+,
+{"english":"Linseed Yellow","latin":"Lini Semen Gold"}
+,
+{"english":"Liverworth Herb","latin":"Hepaticae Nobilis Herba"}
+,
+{"english":"Logwood","latin":"Campechianum Lignum"}
+,
+{"english":"Lotusflower","latin":"Nelumbo Nuciferae Flos"}
+,
+{"english":"Lovage Root","latin":"Levistici Radix"}
+,
+{"english":"Lungworth Leaf","latin":"Pulmonariae Off.Folium"}
+,
+{"english":"Lungworth Moss","latin":"Pulmonariae Lichen"}
+,
+{"english":"Maca Root","latin":"Lepidium Meyenii Radix"}
+,
+{"english":"Madder Root","latin":"Rubiae Tinctoriae Radix"}
+,
+{"english":"Magnolia Bark","latin":"Magnoliae Cortex"}
+,
+{"english":"Maiden Hair Herb","latin":"Capilli Veneris Herba"}
+,
+{"english":"Maidenhair Spleenwort Leaves","latin":"Asplenium Trichomanes Folia"}
+,
+{"english":"Majoram","latin":"Majoranae Folia"}
+,
+{"english":"Manchurian Thorn Leaves","latin":"Aralia Mandshurica"}
+,
+{"english":"Manna","latin":"Manna Album Naturell"}
+,
+{"english":"Maple Leaves","latin":"Acer Platanoides Folium"}
+,
+{"english":"Maple Tree Bark","latin":"Acer Negundo Cortex"}
+,
+{"english":"Marshmallow Herb","latin":"Althaeae Herba"}
+,
+{"english":"Marshmallow Leaf","latin":"Althaeae Folium"}
+,
+{"english":"Marshmallow Root Bark","latin":"Althaeae Radix Cortex"}
+,
+{"english":"Mary Thistle Seed","latin":"Cardui Mariae Fructus"}
+,
+{"english":"Mate Leaves","latin":"Mate Folium"}
+,
+{"english":"Meadowsweet Flowers","latin":"Spiraeae Ulmariae Flos"}
+,
+{"english":"Meadowsweet Herb","latin":"Spiraeae Ulmariae Herba"}
+,
+{"english":"Wormseed Herb (Mexican)","latin":"Chenopodii Gerba"}
+,
+{"english":"Wormwood Herb (Mexican)","latin":"Artemisiae Mexicana"}
+,
+{"english":"Wormwood Hern (Mexican)","latin":"Artemisia Absinthum Mexicana"}
+,
+{"english":"Milkthistle Cake","latin":"Cardui Mariae Fructus"}
+,
+{"english":"Milkthistle Leaf","latin":"Cardui Mariae Folia"}
+,
+{"english":"Milkthistle Seed","latin":"Cardui Mariae Fructus"}
+,
+{"english":"Milkthistle Seed Oil","latin":"Cardui Mariae Oleum"}
+,
+{"english":"Milkwort","latin":"Xysmalobium Undulatum"}
+,
+{"english":"Mistletoe","latin":"Visci Albi Herba"}
+,
+{"english":"Moschus Xylol","latin":"Almizcle Xylol"}
+,
+{"english":"Mother of Thyme","latin":"Serpylli Herba"}
+,
+{"english":"Motherwort Herb","latin":"Leonuri Card Herba"}
+,
+{"english":"Mountain Knotgrass Herb","latin":"Aerva Lanata Herba"}
+,
+{"english":"Mugwort Herb","latin":"Artemisiae Vulgaris Herba"}
+,
+{"english":"Mugwort Root","latin":"Artemisia Vulgaris Radix"}
+,
+{"english":"Muira Puama Lignum","latin":"Muira Puama Lignum"}
+,
+{"english":"Mullein Flower","latin":"Verbasci Flos"}
+,
+{"english":"Mullein Leaf","latin":"Verbasci Folium"}
+,
+{"english":"Musk Mallow Husk","latin":"Amygdalum Husk"}
+,
+{"english":"Musk Mallow Seed","latin":"Abelmoschi Semen"}
+,
+{"english":"Myrrh Gum","latin":"Myrrhae Gummi"}
+,
+{"english":"Myrtle Leaf","latin":"Myrtus Communis Folia"}
+,
+{"english":"Neem Bark","latin":"Azadirachtae Cortex"}
+,
+{"english":"Neem Flowers","latin":"Azadirachtae Flos"}
+,
+{"english":"Neem Leaf","latin":"Azadirachtae Folium"}
+,
+{"english":"Neem Seeds","latin":"Azadirachtae Semen"}
+,
+{"english":"Nettle Leaves","latin":"Urticae Folium"}
+,
+{"english":"Nettle Root","latin":"Urticae Radix"}
+,
+{"english":"Nettle Seed","latin":"Urticae Semen"}
+,
+{"english":"Noni Fruit","latin":"Morindae Citrifoliae Fructus"}
+,
+{"english":"Nutmeg","latin":"Myristicae Nuces"}
+,
+{"english":"Oak Bark","latin":"Quercus Cortex"}
+,
+{"english":"Oat Grass","latin":"Avenae Sativa Herba"}
+,
+{"english":"Oat Herb","latin":"Avena Sativa Herba"}
+,
+{"english":"Oat Straw","latin":"Avena Sativa"}
+,
+{"english":"Oats","latin":"Avena Sativa Semen"}
+,
+{"english":"Oenanthe Crocata Root","latin":"Oenanthe Crocata Radix"}
+,
+{"english":"Onion Flakes","latin":"Allium Cepa Flakes"}
+,
+{"english":"Onions","latin":"Allium Cepa"}
+,
+{"english":"Orange Blossom","latin":"Aurantii Dulcis Flores"}
+,
+{"english":"Orange Fruit","latin":"Aurantii Dulcis"}
+,
+{"english":"Orange Leaf","latin":"Aurantii Folium"}
+,
+{"english":"Orange Peel","latin":"Aurantii Amari"}
+,
+{"english":"Orangejuice Powder","latin":"Auranti Dulcis Succus Siccum Powder"}
+,
+{"english":"Orangetts","latin":"Aurantii Imatur. Fructus"}
+,
+{"english":"Orris Root","latin":"Iridis Rhizoma"}
+,
+{"english":"Oyster Mushroom","latin":"Austernpilz"}
+,
+{"english":"Paeony Flowers","latin":"Paeoniae Flos"}
+,
+{"english":"Pale Coneflower Herb","latin":"Echinaceae Pall. Herba"}
+,
+{"english":"Pansy Herb","latin":"Violae Tricol.C.Flos.Herba"}
+,
+{"english":"Parsley","latin":"Petroselini Herba"}
+,
+{"english":"Parsley Root","latin":"Petroselini Radix"}
+,
+{"english":"Parsley Seed","latin":"Petroselini Fructus"}
+,
+{"english":"Passionflower Herb","latin":"Passiflorae Herba"}
+,
+{"english":"Patchouli Leaf","latin":"Patchouli Folium"}
+,
+{"english":"Pau D'Arco Bark","latin":"Tabebuiae Cortex"}
+,
+{"english":"Peanut","latin":"Arachis Hypogaea"}
+,
+{"english":"Pear Leaf","latin":"Pyrum Folia"}
+,
+{"english":"Pearl Millet Red","latin":"Pennisetum Glaucum Rubra"}
+,
+{"english":"Pellitory Herb","latin":"Parietariae Herba"}
+,
+{"english":"Pepper Long","latin":"Piperis Longae Fructus"}
+,
+{"english":"Peppermint Herb","latin":"Menthae Pip. Herba"}
+,
+{"english":"Peppermint Leaf","latin":"Menthae Pip.Folium"}
+,
+{"english":"Periwinkle Leaf","latin":"Vincae Pervincae Folium"}
+,
+{"english":"Phylanthi Nirurii Herb","latin":"Phylanthi Nirurii Herba"}
+,
+{"english":"Pick-Tooth Fruits","latin":"Ammi Visnagae Fructus"}
+,
+{"english":"Pimenta Fructus","latin":"Pimenta Fructus"}
+,
+{"english":"Pine Shoots","latin":"Piper Aurium Herba"}
+,
+{"english":"Pineapple","latin":"Ananas Comosus"}
+,
+{"english":"Plantain Leaf","latin":"Plantago Majoris Folium"}
+,
+{"english":"Pleurisy Root","latin":"Asclepiadis Tuberos Rhizoma"}
+,
+{"english":"Pointleaf Manzanita","latin":"Arctostaphylos Pungens Folia"}
+,
+{"english":"Poisen Nut","latin":"Vomica Nux"}
+,
+{"english":"Poke Root","latin":"Phytolaccae Dec.Radix"}
+,
+{"english":"Pomegranate Flower","latin":"Punica Granatum Flores"}
+,
+{"english":"Pomegranate Seed","latin":"Punica Granatum Semen"}
+,
+{"english":"Poplar Buds","latin":"Populi Gemma"}
+,
+{"english":"Prince's Feather Leaf","latin":"Amaranthus Hypochondriacus Folia"}
+,
+{"english":"Psyllium Husk","latin":"Psyllium Ovatae Testa"}
+,
+{"english":"Psyllium Seed","latin":"Psyllium Ovatae Semen"}
+,
+{"english":"Pumpkin Seed","latin":"Cucurbitae Semen"}
+,
+{"english":"Purple Loosestrife","latin":"Lythrum Salicaria"}
+,
+{"english":"Pygeum Bark","latin":"Pygei Africani Cortex"}
+,
+{"english":"Quassia Wood","latin":"Quassiae Lignum"}
+,
+{"english":"Raspberry Fruit","latin":"Rubi Idaei Fructus"}
+,
+{"english":"Red Clover Tops","latin":"Trifolii Rubri Flos"}
+,
+{"english":"Red Elder Bark","latin":"Alni Rubra Cortex"}
+,
+{"english":"Red Ginseng","latin":"Ginseng Rubra Radix"}
+,
+{"english":"Red Grape Leaf","latin":"Vitis Viniferae Folium"}
+,
+{"english":"Red Padouk Wood","latin":"Santali Rubri"}
+,
+{"english":"Red Poppy Flowers","latin":"Papaveris Rhoead. Flos"}
+,
+{"english":"Red Raspberry Leaf","latin":"Rubi Idaei Folium"}
+,
+{"english":"Red Sandspurry","latin":"Arenaria Rubra Herba"}
+,
+{"english":"Red Sandwort","latin":"Arenariae Rubrae Herba"}
+,
+{"english":"Rest Harrow Root","latin":"Ononidis Radix"}
+,
+{"english":"Rhubarb Root","latin":"Rhei Sinensis Rhiz. Shuiken"}
+,
+{"english":"Rhubarbroot","latin":"Rheum Palmatum Radix"}
+,
+{"english":"Roman Chamomille Flowers","latin":"Chamomillae Romanae Flos"}
+,
+{"english":"Roman Wormwood Herb","latin":"Absinthii Pontici Herba"}
+,
+{"english":"Roman Wormwood Leaves","latin":"Absinthii Pontici Folia"}
+,
+{"english":"Rooibos Tea","latin":"Aspalathi Folium"}
+,
+{"english":"Rose buds","latin":"Rosae Flores"}
+,
+{"english":"Rosehips Seed","latin":"Cynosbati Semen"}
+,
+{"english":"Rosehips Shells","latin":"Cynosbati Fructus"}
+,
+{"english":"Rosemary","latin":"Rosmarini Folium"}
+,
+{"english":"Rowan Berries","latin":"Sorbi Fructus"}
+,
+{"english":"Rupture Wort","latin":"Herniariae Spp Herba"}
+,
+{"english":"Russian Milkvetch Herb","latin":"Astragalus Falcatus Herba"}
+,
+{"english":"Safflower Petals","latin":"Carthami Flos"}
+,
+{"english":"Sage","latin":"Salviae Off. Folium"}
+,
+{"english":"Sage Trilopa","latin":"Salvia Triloba Folia"}
+,
+{"english":"Saint Pauls Wort Herb","latin":"Siegesbeckiae Orien.Herba"}
+,
+{"english":"Salmon Oil","latin":"Lachs Oleum"}
+,
+{"english":"Sandlewood White","latin":"Santali Album Lignum"}
+,
+{"english":"Sarsaparilla Indica Radix","latin":"Sarsaparilla Indica Radix"}
+,
+{"english":"Sarsaparillae Root","latin":"Sarsaparillae Mex Rdx"}
+,
+{"english":"Satavari","latin":"Asparagus Racemosus"}
+,
+{"english":"Saw Palmetto Berries","latin":"Sabalae Serrul.Fructus"}
+,
+{"english":"Saw Palometto Berry Oil","latin":"Sabalae serrul.Oleum"}
+,
+{"english":"Scammony Root Mexican","latin":"Scammoniae Mexicanae Radix"}
+,
+{"english":"Schisandra Fuits","latin":"Schizandre Chinen.Fruct."}
+,
+{"english":"Sea Wormwood Herb","latin":"Artemisia Maritima Herba"}
+,
+{"english":"Seabuckthorn Fruits","latin":"Hippophae Rhamnoidis Fructus"}
+,
+{"english":"Sedi Acris Herba","latin":"Sedi Acris Herba"}
+,
+{"english":"Senega Root","latin":"Senegae Radix"}
+,
+{"english":"Senna Alexandrina Pods","latin":"Sennae Acutifolia Fructus"}
+,
+{"english":"Senna Leaf","latin":"Sennae Tinnevelly Folium"}
+,
+{"english":"Senna Pods","latin":"Sennae Tinnevelly Fructus"}
+,
+{"english":"Sesame Seed","latin":"Sesamum Indicum Semen"}
+,
+{"english":"Shepherd's Purse Herb","latin":"Bursae Pastoris Herba"}
+,
+{"english":"Siberian Fir Needles","latin":"Abies Sibirica Summitates"}
+,
+{"english":"Sibirian Ginseng","latin":"Eleutherococci Radix"}
+,
+{"english":"Silverweed Herb","latin":"Anserinae Herba"}
+,
+{"english":"Silverweed Radix","latin":"Anserinae Radix"}
+,
+{"english":"Skullcap Herb","latin":"Scutellariae Latifolia Herba"}
+,
+{"english":"Slippery Elm Bark","latin":"Ulmus Rubra Cortex"}
+,
+{"english":"Sloe Berries","latin":"Pruni Spinosae Fructus"}
+,
+{"english":"Sloe Flowers","latin":"Pruni Spinosae Flores"}
+,
+{"english":"Small Leaved Lime Bark","latin":"Tilia Cordata Cortex"}
+,
+{"english":"Smilax Root","latin":"Sarsaparillae Smilax Radix"}
+,
+{"english":"Snapdragon Yellow Petals","latin":"Antirrhinum Majus Flores"}
+,
+{"english":"Soap Herb","latin":"Saponariae Off. Herba"}
+,
+{"english":"Soap Root","latin":"Saponariae Off. Radix"}
+,
+{"english":"Soapnut Seeds","latin":"Soapnut Semen"}
+,
+{"english":"Soapnutbark","latin":"Sapindus Fructus Cortex"}
+,
+{"english":"Soldier's Palm","latin":"Vincae Roseae Folium"}
+,
+{"english":"Soldier's Palm Root","latin":"Vincae Roseae Radix"}
+,
+{"english":"Southernwood Herb","latin":"Abrotani Herba"}
+,
+{"english":"Spanish Fly","latin":"Cantharis Hispanica"}
+,
+{"english":"Spearmint Leaf","latin":"Menthae Crispae Folium"}
+,
+{"english":"Spikenard Root","latin":"Araliae Racemosae Radix"}
+,
+{"english":"Spinach Leaf","latin":"Spinacia Folium"}
+,
+{"english":"Spirulinae Alga","latin":"Spirulinae Alga"}
+,
+{"english":"Squawwine Herb","latin":"Mitchellae Repens Herba"}
+,
+{"english":"St Johnswort","latin":"Hyperici Herba Flores"}
+,
+{"english":"Star Anis","latin":"Anisi Stell. Fructus"}
+,
+{"english":"Star Grass Root","latin":"Aletris Farinosae Radix"}
+,
+{"english":"Staranis","latin":"Anisi Stell. Fructus"}
+,
+{"english":"Stevia  Leaf","latin":"Steviae Rebaud. Folium"}
+,
+{"english":"Stone Root","latin":"Collinsoniae Canad. Radix"}
+,
+{"english":"Strawberry Leaf","latin":"Fragariae Vescae Herba"}
+,
+{"english":"Sundew Ramentacea","latin":"Droserae Rament.Herba"}
+,
+{"english":"Sunflower Seed","latin":"Helianthi Annui Fructus"}
+,
+{"english":"Sweet Annie Herb","latin":"Artemisiae Annua Herba"}
+,
+{"english":"Sweet Chestnut Leaf","latin":"Castanae Vesca Folia"}
+,
+{"english":"Sweet Potato","latin":"Hypoxis Rooperi Tuber"}
+,
+{"english":"Sweet Wormwood Herb","latin":"Artemisiae Annua Herba"}
+,
+{"english":"Sweetclover Flowers","latin":"Meliloti Officinlis Flos"}
+,
+{"english":"Sweetclover Yellow","latin":"Meliloti Off.  Herba"}
+,
+{"english":"Sweetflag Root","latin":"Calami Rhizoma"}
+,
+{"english":"Syzygii Jambolani Fruits","latin":"Syzygii Jambolani Fructus"}
+,
+{"english":"Tamarind Pulp","latin":"Tamarindorum Pulpa"}
+,
+{"english":"Tansy Herb","latin":"Tanacetii Vulgaris Herba"}
+,
+{"english":"Tea Ceylon","latin":"Thea Nigra Ceylon"}
+,
+{"english":"Thyme Herb","latin":"Thymi Vulgaris Herba"}
+,
+{"english":"Toadstool","latin":"Agaricus Muscariae"}
+,
+{"english":"Tormentilla Root","latin":"Tormentillae Rhizoma"}
+,
+{"english":"Tribulus Terrestris Fruit","latin":"Tribulus Terrestris Fructus"}
+,
+{"english":"Trifolii Fibrini Folium","latin":"Trifolii Fibrini Folium"}
+,
+{"english":"Trifolii Rubri Flos","latin":"Trifolii Rubri Flos"}
+,
+{"english":"Tulsi Seed","latin":"Ocimum Sanctum Semen"}
+,
+{"english":"Turmeric Root","latin":"Curcumae Longae Rhizoma"}
+,
+{"english":"Uva Ursi Leaf","latin":"Uvae Ursi Folium"}
+,
+{"english":"Valerian Root","latin":"Valerianae Off.Radix"}
+,
+{"english":"Valeriana Root","latin":"Valerianae Root"}
+,
+{"english":"Vervain Herb","latin":"Verbenae Off.Herba"}
+,
+{"english":"Violet Flowers","latin":"Violae Odoratae Flos"}
+,
+{"english":"Virginia Snake Root","latin":"Aristolochia Serpentaria Radix"}
+,
+{"english":"Vitex Fruit","latin":"Agni Casti Fructus"}
+,
+{"english":"Walnut Hulls","latin":"Juglandis Nucum Peric."}
+,
+{"english":"Walnut Leaf","latin":"Juglandis Folium"}
+,
+{"english":"Water Mint Herb","latin":"Menthae Aquaticae Herba"}
+,
+{"english":"Watercress","latin":"Nasturtii Herba"}
+,
+{"english":"White Agaric","latin":"Agaricus Abus"}
+,
+{"english":"White Fir Oil","latin":"Abies Alba Oleum"}
+,
+{"english":"White Mullberry Bark","latin":"Morus Alba Cortex"}
+,
+{"english":"White Tea","latin":"Theae Alba Folium"}
+,
+{"english":"White Veratrum Root","latin":"Veratri Albi Rhizoma"}
+,
+{"english":"White Womrwood","latin":"Artemisia Alba Turra"}
+,
+{"english":"Wild Cherry Twicksbark","latin":"Pruni Virginia Cortex"}
+,
+{"english":"Wild Garlic","latin":"Allii Ursini Herba"}
+,
+{"english":"Wild Indigo Root","latin":"Baptisiae Ssp Radix"}
+,
+{"english":"Wild Lettuce","latin":"Lactucae Virosae Herba"}
+,
+{"english":"Wild Yam Root","latin":"Dioscoreae Vill. Radix"}
+,
+{"english":"Willow Bark","latin":"Salicis Cortex"}
+,
+{"english":"Winter Savory Asta","latin":"Saturejae Mont. Asta"}
+,
+{"english":"Winter Savory Herb","latin":"Saturejae Mont. Herba"}
+,
+{"english":"Witch Hazel Bark","latin":"Hamamelidis Cortex"}
+,
+{"english":"Witch Hazel Leaf","latin":"Hamamelidis Folium"}
+,
+{"english":"Wood Betony Herb","latin":"Betonicae Herba"}
+,
+{"english":"Woodruff Herb","latin":"Asperulae Odoratae Herba"}
+,
+{"english":"Wormweed Seed","latin":"Artemisia Cina Semen"}
+,
+{"english":"Wormwood Herb","latin":"Absinthii Vulgaris Herba"}
+,
+{"english":"Wormwood Leaves","latin":"Absinthii Vulgaris Folium"}
+,
+{"english":"Woundwort Flower","latin":"Anthyllidis Vulnerariae Flos"}
+,
+{"english":"Woundwort Herb","latin":"Anthyllidis Vulnerariae Herba"}
+,
+{"english":"Yarrow Flowers","latin":"Millefolii Flos"}
+,
+{"english":"Yarrow Herb","latin":"Millefolii Herba"}
+,
+{"english":"Yellow Dock Root","latin":"Rumicis Crispi Radix"}
+,
+{"english":"Yellow Lady's Bedstraw Herb","latin":"Galii Veri Herba"}
+,
+{"english":"Yellowwood","latin":"Citrinum Lignum"}
+,
+{"english":"Yohimbe Bark","latin":"Yohimbe Cortex"}
+,
+{"english":"Yucca Root","latin":"Yucca Radix"}
+,
+{"english":"Zedoary Root","latin":"Zedoariae Rhizoma"}
+
+]
 }

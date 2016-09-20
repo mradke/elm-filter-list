@@ -4,6 +4,45 @@
     <meta charset="utf-8">
     <title>Elm filter list</title>
     <script src="filter.js"></script>
+    <style>
+body {
+  font-family: sans-serif;
+  font-size: 12px;
+}
+
+.filter-box {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.herblist {
+    max-height: 300px;
+    overflow-y: scroll;
+    border: 1px solid #eee;
+}
+
+.herblist-header {
+  width: 100%;
+  background: #f2f2f2;
+  color: #666;
+}
+
+.herblist-header span {
+  width: 50%;
+  padding: 10px;
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+.list-item span {
+  width: calc(50% - 5px);
+  display: inline-block;
+  padding: 10px;
+  border: 1px solid #eee;
+  box-sizing: border-box;
+}
+    </style>
   </head>
   <body>
     <div id="list"></div>
@@ -12,7 +51,7 @@
         var initVal = {
             "herbs": [],
             "filterBy": "",
-            "message": "init stuff"
+            "message": "init message"
           };
         var node = document.getElementById('list');
         var app = Elm.ListFilter.embed(node, initVal);

@@ -8708,12 +8708,27 @@ var _user$project$ListFilter$viewHerbDescription = function (model) {
 	return A2(
 		_elm_lang$html$Html$div,
 		_elm_lang$core$Native_List.fromArray(
-			[]),
+			[
+				_elm_lang$html$Html_Attributes$class('list-item')
+			]),
 		_elm_lang$core$Native_List.fromArray(
 			[
-				_elm_lang$html$Html$text(
-				A2(_elm_lang$core$Basics_ops['++'], model.latin, ' - ')),
-				_elm_lang$html$Html$text(model.english)
+				A2(
+				_elm_lang$html$Html$span,
+				_elm_lang$core$Native_List.fromArray(
+					[]),
+				_elm_lang$core$Native_List.fromArray(
+					[
+						_elm_lang$html$Html$text(model.latin)
+					])),
+				A2(
+				_elm_lang$html$Html$span,
+				_elm_lang$core$Native_List.fromArray(
+					[]),
+				_elm_lang$core$Native_List.fromArray(
+					[
+						_elm_lang$html$Html$text(model.english)
+					]))
 			]));
 };
 var _user$project$ListFilter$removeUnmatched = F2(
@@ -8853,10 +8868,12 @@ var _user$project$ListFilter$view = function (model) {
 			[]),
 		_elm_lang$core$Native_List.fromArray(
 			[
+				_elm_lang$html$Html$text(model.message),
 				A2(
 				_elm_lang$html$Html$input,
 				_elm_lang$core$Native_List.fromArray(
 					[
+						_elm_lang$html$Html_Attributes$class('filter-box'),
 						_elm_lang$html$Html_Attributes$placeholder('Filter'),
 						_elm_lang$html$Html_Events$onInput(_user$project$ListFilter$NewFilter)
 					]),
@@ -8865,7 +8882,34 @@ var _user$project$ListFilter$view = function (model) {
 				A2(
 				_elm_lang$html$Html$div,
 				_elm_lang$core$Native_List.fromArray(
-					[]),
+					[
+						_elm_lang$html$Html_Attributes$class('herblist-header')
+					]),
+				_elm_lang$core$Native_List.fromArray(
+					[
+						A2(
+						_elm_lang$html$Html$span,
+						_elm_lang$core$Native_List.fromArray(
+							[]),
+						_elm_lang$core$Native_List.fromArray(
+							[
+								_elm_lang$html$Html$text('Product name')
+							])),
+						A2(
+						_elm_lang$html$Html$span,
+						_elm_lang$core$Native_List.fromArray(
+							[]),
+						_elm_lang$core$Native_List.fromArray(
+							[
+								_elm_lang$html$Html$text('Botanical name')
+							]))
+					])),
+				A2(
+				_elm_lang$html$Html$div,
+				_elm_lang$core$Native_List.fromArray(
+					[
+						_elm_lang$html$Html_Attributes$class('herblist')
+					]),
 				herbs)
 			]));
 };
