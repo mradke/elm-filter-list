@@ -1,0 +1,11 @@
+# ==== NPM ====
+node_modules/
+
+# ==== LOG/CONFIG ====
+*.log
+
+# ==== ELM ====
+elm-stuff
+repl-temp-*
+
+
