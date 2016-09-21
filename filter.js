@@ -8737,9 +8737,6 @@ var _user$project$ListFilter$removeUnmatched = F2(
 		var latin = _elm_lang$core$String$toLower(desc.latin);
 		return A2(_elm_lang$core$String$contains, fltr, latin) ? _elm_lang$core$Maybe$Just(desc) : (A2(_elm_lang$core$String$contains, fltr, english) ? _elm_lang$core$Maybe$Just(desc) : _elm_lang$core$Maybe$Nothing);
 	});
-var _user$project$ListFilter$subscriptions = function (model) {
-	return _elm_lang$core$Platform_Sub$none;
-};
 var _user$project$ListFilter$update = F2(
 	function (msg, model) {
 		var _p0 = msg;
@@ -8765,59 +8762,19 @@ var _user$project$ListFilter$update = F2(
 						message: A2(_elm_lang$core$Basics_ops['++'], 'Error: ', _p0._0)
 					});
 				return {ctor: '_Tuple2', _0: newModel, _1: _elm_lang$core$Platform_Cmd$none};
-			default:
+			case 'DataFetched':
 				var newModel = _elm_lang$core$Native_Utils.update(
 					model,
 					{herbs: _p0._0});
 				return {ctor: '_Tuple2', _0: newModel, _1: _elm_lang$core$Platform_Cmd$none};
+			default:
+				var newModel = _elm_lang$core$Native_Utils.update(
+					model,
+					{offset: _p0._0});
+				return {ctor: '_Tuple2', _0: newModel, _1: _elm_lang$core$Platform_Cmd$none};
 		}
 	});
-var _user$project$ListFilter$syncmap = _elm_lang$core$Native_Platform.outgoingPort(
-	'syncmap',
-	function (v) {
-		return {
-			herbs: _elm_lang$core$Native_List.toArray(v.herbs).map(
-				function (v) {
-					return {latin: v.latin, english: v.english};
-				}),
-			filterBy: v.filterBy,
-			message: v.message
-		};
-	});
-var _user$project$ListFilter$getInitValue = _elm_lang$core$Native_Platform.incomingPort(
-	'getInitValue',
-	A2(
-		_elm_lang$core$Json_Decode$andThen,
-		A2(
-			_elm_lang$core$Json_Decode_ops[':='],
-			'herbs',
-			_elm_lang$core$Json_Decode$list(
-				A2(
-					_elm_lang$core$Json_Decode$andThen,
-					A2(_elm_lang$core$Json_Decode_ops[':='], 'latin', _elm_lang$core$Json_Decode$string),
-					function (latin) {
-						return A2(
-							_elm_lang$core$Json_Decode$andThen,
-							A2(_elm_lang$core$Json_Decode_ops[':='], 'english', _elm_lang$core$Json_Decode$string),
-							function (english) {
-								return _elm_lang$core$Json_Decode$succeed(
-									{latin: latin, english: english});
-							});
-					}))),
-		function (herbs) {
-			return A2(
-				_elm_lang$core$Json_Decode$andThen,
-				A2(_elm_lang$core$Json_Decode_ops[':='], 'filterBy', _elm_lang$core$Json_Decode$string),
-				function (filterBy) {
-					return A2(
-						_elm_lang$core$Json_Decode$andThen,
-						A2(_elm_lang$core$Json_Decode_ops[':='], 'message', _elm_lang$core$Json_Decode$string),
-						function (message) {
-							return _elm_lang$core$Json_Decode$succeed(
-								{herbs: herbs, filterBy: filterBy, message: message});
-						});
-				});
-		}));
+var _user$project$ListFilter$offset = _elm_lang$core$Native_Platform.incomingPort('offset', _elm_lang$core$Json_Decode$int);
 var _user$project$ListFilter$HerbDescription = F2(
 	function (a, b) {
 		return {latin: a, english: b};
@@ -8828,24 +8785,32 @@ var _user$project$ListFilter$herbDateDecoder = A3(
 	A2(_elm_lang$core$Json_Decode_ops[':='], 'english', _elm_lang$core$Json_Decode$string),
 	A2(_elm_lang$core$Json_Decode_ops[':='], 'latin', _elm_lang$core$Json_Decode$string));
 var _user$project$ListFilter$herbListDecoder = _elm_lang$core$Json_Decode$list(_user$project$ListFilter$herbDateDecoder);
-var _user$project$ListFilter$Model = F3(
-	function (a, b, c) {
-		return {herbs: a, filterBy: b, message: c};
+var _user$project$ListFilter$Model = F5(
+	function (a, b, c, d, e) {
+		return {herbs: a, filterBy: b, message: c, url: d, offset: e};
 	});
+var _user$project$ListFilter$Offset = function (a) {
+	return {ctor: 'Offset', _0: a};
+};
+var _user$project$ListFilter$subscriptions = function (model) {
+	return _user$project$ListFilter$offset(_user$project$ListFilter$Offset);
+};
 var _user$project$ListFilter$DataFetched = function (a) {
 	return {ctor: 'DataFetched', _0: a};
 };
 var _user$project$ListFilter$ErrorOccurred = function (a) {
 	return {ctor: 'ErrorOccurred', _0: a};
 };
-var _user$project$ListFilter$fetchData = A3(
-	_elm_lang$core$Task$perform,
-	_user$project$ListFilter$ErrorOccurred,
-	_user$project$ListFilter$DataFetched,
-	A2(
-		_elm_lang$core$Task$mapError,
-		_elm_lang$core$Basics$toString,
-		A2(_evancz$elm_http$Http$get, _user$project$ListFilter$herbListDecoder, 'http://0.0.0.0:3000/herbs')));
+var _user$project$ListFilter$fetchData = function (url) {
+	return A3(
+		_elm_lang$core$Task$perform,
+		_user$project$ListFilter$ErrorOccurred,
+		_user$project$ListFilter$DataFetched,
+		A2(
+			_elm_lang$core$Task$mapError,
+			_elm_lang$core$Basics$toString,
+			A2(_evancz$elm_http$Http$get, _user$project$ListFilter$herbListDecoder, url)));
+};
 var _user$project$ListFilter$FetchData = {ctor: 'FetchData'};
 var _user$project$ListFilter$Init = function (a) {
 	return {ctor: 'Init', _0: a};
@@ -8869,6 +8834,8 @@ var _user$project$ListFilter$view = function (model) {
 		_elm_lang$core$Native_List.fromArray(
 			[
 				_elm_lang$html$Html$text(model.message),
+				_elm_lang$html$Html$text(
+				_elm_lang$core$Basics$toString(model.offset)),
 				A2(
 				_elm_lang$html$Html$input,
 				_elm_lang$core$Native_List.fromArray(
@@ -8917,7 +8884,11 @@ var _user$project$ListFilter$main = {
 	main: _elm_lang$html$Html_App$programWithFlags(
 		{
 			init: function (flags) {
-				return {ctor: '_Tuple2', _0: flags, _1: _user$project$ListFilter$fetchData};
+				return {
+					ctor: '_Tuple2',
+					_0: flags,
+					_1: _user$project$ListFilter$fetchData(flags.url)
+				};
 			},
 			view: _user$project$ListFilter$view,
 			update: _user$project$ListFilter$update,
@@ -8950,8 +8921,18 @@ var _user$project$ListFilter$main = {
 						_elm_lang$core$Json_Decode$andThen,
 						A2(_elm_lang$core$Json_Decode_ops[':='], 'message', _elm_lang$core$Json_Decode$string),
 						function (message) {
-							return _elm_lang$core$Json_Decode$succeed(
-								{filterBy: filterBy, herbs: herbs, message: message});
+							return A2(
+								_elm_lang$core$Json_Decode$andThen,
+								A2(_elm_lang$core$Json_Decode_ops[':='], 'offset', _elm_lang$core$Json_Decode$int),
+								function (offset) {
+									return A2(
+										_elm_lang$core$Json_Decode$andThen,
+										A2(_elm_lang$core$Json_Decode_ops[':='], 'url', _elm_lang$core$Json_Decode$string),
+										function (url) {
+											return _elm_lang$core$Json_Decode$succeed(
+												{filterBy: filterBy, herbs: herbs, message: message, offset: offset, url: url});
+										});
+								});
 						});
 				});
 		})

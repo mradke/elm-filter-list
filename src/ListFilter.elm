@@ -12,7 +12,7 @@ import Http
 main : Program Model
 main
   = App.programWithFlags
-    { init = \flags -> (flags, fetchData)
+    { init = \flags -> (flags, fetchData flags.url)
     , view = view
     , update = update
     , subscriptions = subscriptions
@@ -29,6 +29,8 @@ type alias Model =
   { herbs : List HerbDescription
   , filterBy : String
   , message : String
+  , url : String
+  , offset : Int
   }
 
 -- UPDATE
@@ -40,8 +42,7 @@ type Msg
   | FetchData
   | ErrorOccurred String
   | DataFetched (List HerbDescription)
-
-port syncmap : Model -> Cmd msg
+  | Offset Int
 
 update : Msg -> Model -> (Model, Cmd Msg)
 update msg model =
@@ -72,13 +73,18 @@ update msg model =
       in
         (newModel, Cmd.none)
 
+    Offset newOffset ->
+      let newModel = { model | offset = newOffset }
+      in
+        ( newModel, Cmd.none )
+
 -- SUBSCRIPTIONS
 
-port getInitValue : (Model -> msg) -> Sub msg
+port offset : ( Int -> msg ) -> Sub msg
 
 subscriptions : Model -> Sub Msg
-subscriptions model = Sub.none
-
+subscriptions model =
+  offset Offset
 
 -- VIEW
 
@@ -91,6 +97,7 @@ view model =
   in
     div []
       [ text model.message
+      , text (toString model.offset)
       , input [ class "filter-box", placeholder "Filter", onInput NewFilter ] []
       , div [ class "herblist-header" ] 
         [ span [] [ text "Product name" ]
@@ -132,8 +139,8 @@ herbListDecoder : Json.Decoder (List HerbDescription)
 herbListDecoder =
   Json.list herbDateDecoder
 
-fetchData : Cmd Msg
-fetchData =
-  Http.get herbListDecoder "http://0.0.0.0:3000/herbs"
+fetchData : String -> Cmd Msg
+fetchData url =
+  Http.get herbListDecoder url
     |> Task.mapError toString
     |> Task.perform ErrorOccurred DataFetched

@@ -48,13 +48,23 @@ body {
     <div id="list"></div>
 
     <script>
-        var initVal = {
+        var initModel = {
             "herbs": [],
             "filterBy": "",
-            "message": "init message"
+            "message": "init message",
+            "offset": 0,
+            "url": "http://localhost:3000/herbs"
           };
         var node = document.getElementById('list');
-        var app = Elm.ListFilter.embed(node, initVal);
+        var app = Elm.ListFilter.embed(node, initModel);
+
+        setTimeout(function() {
+          var herblistContainer = node.getElementsByClassName('herblist')[0]
+          herblistContainer.addEventListener('scroll', function(e) {
+            // console.log(herblistContainer.scrollTop)
+            app.ports.offset.send(herblistContainer.scrollTop)
+          })
+        }, 0)
     </script>
   </body>
 </html>
