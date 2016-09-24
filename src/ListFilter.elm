@@ -4,6 +4,7 @@ import Html exposing (..)
 import Html.Attributes exposing (..)
 import Html.Events exposing (..)
 import Html.App as App
+import Array exposing (Array)
 import String exposing (contains)
 import Json.Decode as Json exposing (..)
 import Task
@@ -26,7 +27,7 @@ type alias HerbDescription =
   }
 
 type alias Model =
-  { herbs : List HerbDescription
+  { herbs : Array HerbDescription
   , filterBy : String
   , message : String
   , url : String
@@ -41,7 +42,7 @@ type Msg
   | Init Model
   | FetchData
   | ErrorOccurred String
-  | DataFetched (List HerbDescription)
+  | DataFetched (Array HerbDescription)
   | Offset Int
 
 update : Msg -> Model -> (Model, Cmd Msg)
@@ -91,19 +92,31 @@ subscriptions model =
 view : Model -> Html Msg
 view model =
   let
-    herbs =
-      List.map viewHerbDescription
-        <| List.filterMap (removeUnmatched <| String.toLower model.filterBy) model.herbs
+    index = (model.offset // 80)
+    herbs = Array.indexedMap viewHerbDescription model.herbs
+    viewable = Array.slice index (index + 8) herbs
+      --  <| Array.filterMap (removeUnmatched <| String.toLower model.filterBy) model.herbs
   in
     div []
       [ text model.message
       , text (toString model.offset)
+      , text (" Index: " ++ (toString index))
       , input [ class "filter-box", placeholder "Filter", onInput NewFilter ] []
       , div [ class "herblist-header" ] 
         [ span [] [ text "Product name" ]
         , span [] [ text "Botanical name" ]
         ]
-      , div [class "herblist-content"] [ div [ class "herblist" ] herbs ] 
+      , div 
+        [ class "herblist-content" ] 
+        [ div 
+          [ class "herblist"
+          , style 
+            [ ("min-height", (toString ((Array.length model.herbs) * 80)) ++ "px")
+            , ("position", "relative")
+            ]
+          ] 
+          (Array.toList viewable)
+        ] 
       ]
 
 removeUnmatched : String -> HerbDescription -> Maybe HerbDescription
@@ -119,10 +132,16 @@ removeUnmatched fltr desc =
     else
       Nothing
 
-viewHerbDescription : HerbDescription -> Html Msg
-viewHerbDescription model =
-  div [class "list-item"]
-    [ span [] [ text model.latin ]
+viewHerbDescription : Int -> HerbDescription -> Html Msg
+viewHerbDescription position model =
+  div 
+    [ class "list-item"
+    , style 
+      [ ("top", ((toString (position * 80)) ++ "px"))
+      , ("position", "absolute") 
+      ]
+    ]
+    [ span [] [ text (toString position), text model.latin ]
     , span [] [ text model.english ]
     ]
 
@@ -135,9 +154,9 @@ herbDateDecoder =
     ("english" := string)
     ("latin" := string)
 
-herbListDecoder : Json.Decoder (List HerbDescription)
+herbListDecoder : Json.Decoder (Array HerbDescription)
 herbListDecoder =
-  Json.list herbDateDecoder
+  Json.array herbDateDecoder
 
 fetchData : String -> Cmd Msg
 fetchData url =

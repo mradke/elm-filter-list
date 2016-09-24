@@ -65,7 +65,7 @@ body {
         var app = Elm.ListFilter.embed(node, initModel);
 
         setTimeout(function() {
-          var herblistContainer = node.getElementsByClassName('herblist')[0]
+          var herblistContainer = node.getElementsByClassName('herblist-content')[0]
           herblistContainer.addEventListener('scroll', function(e) {
             // console.log(herblistContainer.scrollTop)
             app.ports.offset.send(herblistContainer.scrollTop)

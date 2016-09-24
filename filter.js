@@ -8704,33 +8704,49 @@ var _evancz$elm_http$Http$post = F3(
 			A2(_evancz$elm_http$Http$send, _evancz$elm_http$Http$defaultSettings, request));
 	});
 
-var _user$project$ListFilter$viewHerbDescription = function (model) {
-	return A2(
-		_elm_lang$html$Html$div,
-		_elm_lang$core$Native_List.fromArray(
-			[
-				_elm_lang$html$Html_Attributes$class('list-item')
-			]),
-		_elm_lang$core$Native_List.fromArray(
-			[
-				A2(
-				_elm_lang$html$Html$span,
-				_elm_lang$core$Native_List.fromArray(
-					[]),
-				_elm_lang$core$Native_List.fromArray(
-					[
-						_elm_lang$html$Html$text(model.latin)
-					])),
-				A2(
-				_elm_lang$html$Html$span,
-				_elm_lang$core$Native_List.fromArray(
-					[]),
-				_elm_lang$core$Native_List.fromArray(
-					[
-						_elm_lang$html$Html$text(model.english)
-					]))
-			]));
-};
+var _user$project$ListFilter$viewHerbDescription = F2(
+	function (position, model) {
+		return A2(
+			_elm_lang$html$Html$div,
+			_elm_lang$core$Native_List.fromArray(
+				[
+					_elm_lang$html$Html_Attributes$class('list-item'),
+					_elm_lang$html$Html_Attributes$style(
+					_elm_lang$core$Native_List.fromArray(
+						[
+							{
+							ctor: '_Tuple2',
+							_0: 'top',
+							_1: A2(
+								_elm_lang$core$Basics_ops['++'],
+								_elm_lang$core$Basics$toString(position * 80),
+								'px')
+						},
+							{ctor: '_Tuple2', _0: 'position', _1: 'absolute'}
+						]))
+				]),
+			_elm_lang$core$Native_List.fromArray(
+				[
+					A2(
+					_elm_lang$html$Html$span,
+					_elm_lang$core$Native_List.fromArray(
+						[]),
+					_elm_lang$core$Native_List.fromArray(
+						[
+							_elm_lang$html$Html$text(
+							_elm_lang$core$Basics$toString(position)),
+							_elm_lang$html$Html$text(model.latin)
+						])),
+					A2(
+					_elm_lang$html$Html$span,
+					_elm_lang$core$Native_List.fromArray(
+						[]),
+					_elm_lang$core$Native_List.fromArray(
+						[
+							_elm_lang$html$Html$text(model.english)
+						]))
+				]));
+	});
 var _user$project$ListFilter$removeUnmatched = F2(
 	function (fltr, desc) {
 		var english = _elm_lang$core$String$toLower(desc.english);
@@ -8784,7 +8800,7 @@ var _user$project$ListFilter$herbDateDecoder = A3(
 	_user$project$ListFilter$HerbDescription,
 	A2(_elm_lang$core$Json_Decode_ops[':='], 'english', _elm_lang$core$Json_Decode$string),
 	A2(_elm_lang$core$Json_Decode_ops[':='], 'latin', _elm_lang$core$Json_Decode$string));
-var _user$project$ListFilter$herbListDecoder = _elm_lang$core$Json_Decode$list(_user$project$ListFilter$herbDateDecoder);
+var _user$project$ListFilter$herbListDecoder = _elm_lang$core$Json_Decode$array(_user$project$ListFilter$herbDateDecoder);
 var _user$project$ListFilter$Model = F5(
 	function (a, b, c, d, e) {
 		return {herbs: a, filterBy: b, message: c, url: d, offset: e};
@@ -8819,14 +8835,9 @@ var _user$project$ListFilter$NewFilter = function (a) {
 	return {ctor: 'NewFilter', _0: a};
 };
 var _user$project$ListFilter$view = function (model) {
-	var herbs = A2(
-		_elm_lang$core$List$map,
-		_user$project$ListFilter$viewHerbDescription,
-		A2(
-			_elm_lang$core$List$filterMap,
-			_user$project$ListFilter$removeUnmatched(
-				_elm_lang$core$String$toLower(model.filterBy)),
-			model.herbs));
+	var herbs = A2(_elm_lang$core$Array$indexedMap, _user$project$ListFilter$viewHerbDescription, model.herbs);
+	var index = (model.offset / 80) | 0;
+	var viewable = A3(_elm_lang$core$Array$slice, index, index + 8, herbs);
 	return A2(
 		_elm_lang$html$Html$div,
 		_elm_lang$core$Native_List.fromArray(
@@ -8836,6 +8847,11 @@ var _user$project$ListFilter$view = function (model) {
 				_elm_lang$html$Html$text(model.message),
 				_elm_lang$html$Html$text(
 				_elm_lang$core$Basics$toString(model.offset)),
+				_elm_lang$html$Html$text(
+				A2(
+					_elm_lang$core$Basics_ops['++'],
+					' Index: ',
+					_elm_lang$core$Basics$toString(index))),
 				A2(
 				_elm_lang$html$Html$input,
 				_elm_lang$core$Native_List.fromArray(
@@ -8883,9 +8899,23 @@ var _user$project$ListFilter$view = function (model) {
 						_elm_lang$html$Html$div,
 						_elm_lang$core$Native_List.fromArray(
 							[
-								_elm_lang$html$Html_Attributes$class('herblist')
+								_elm_lang$html$Html_Attributes$class('herblist'),
+								_elm_lang$html$Html_Attributes$style(
+								_elm_lang$core$Native_List.fromArray(
+									[
+										{
+										ctor: '_Tuple2',
+										_0: 'min-height',
+										_1: A2(
+											_elm_lang$core$Basics_ops['++'],
+											_elm_lang$core$Basics$toString(
+												_elm_lang$core$Array$length(model.herbs) * 80),
+											'px')
+									},
+										{ctor: '_Tuple2', _0: 'position', _1: 'relative'}
+									]))
 							]),
-						herbs)
+						_elm_lang$core$Array$toList(viewable))
 					]))
 			]));
 };
@@ -8912,7 +8942,7 @@ var _user$project$ListFilter$main = {
 				A2(
 					_elm_lang$core$Json_Decode_ops[':='],
 					'herbs',
-					_elm_lang$core$Json_Decode$list(
+					_elm_lang$core$Json_Decode$array(
 						A2(
 							_elm_lang$core$Json_Decode$andThen,
 							A2(_elm_lang$core$Json_Decode_ops[':='], 'english', _elm_lang$core$Json_Decode$string),
