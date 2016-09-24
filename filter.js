@@ -8875,9 +8875,18 @@ var _user$project$ListFilter$view = function (model) {
 				_elm_lang$html$Html$div,
 				_elm_lang$core$Native_List.fromArray(
 					[
-						_elm_lang$html$Html_Attributes$class('herblist')
+						_elm_lang$html$Html_Attributes$class('herblist-content')
 					]),
-				herbs)
+				_elm_lang$core$Native_List.fromArray(
+					[
+						A2(
+						_elm_lang$html$Html$div,
+						_elm_lang$core$Native_List.fromArray(
+							[
+								_elm_lang$html$Html_Attributes$class('herblist')
+							]),
+						herbs)
+					]))
 			]));
 };
 var _user$project$ListFilter$main = {

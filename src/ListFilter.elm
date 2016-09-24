@@ -103,7 +103,7 @@ view model =
         [ span [] [ text "Product name" ]
         , span [] [ text "Botanical name" ]
         ]
-      , div [class "herblist"] herbs
+      , div [class "herblist-content"] [ div [ class "herblist" ] herbs ] 
       ]
 
 removeUnmatched : String -> HerbDescription -> Maybe HerbDescription
