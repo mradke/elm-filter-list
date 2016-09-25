@@ -28,6 +28,7 @@ type alias HerbDescription =
 
 type alias Model =
   { herbs : Array HerbDescription
+  , herbsViewable : Array ( Int, HerbDescription ) -- optimization to cache the scroll offset
   , filterBy : String
   , message : String
   , url : String

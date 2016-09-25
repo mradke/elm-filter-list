@@ -8801,9 +8801,9 @@ var _user$project$ListFilter$herbDateDecoder = A3(
 	A2(_elm_lang$core$Json_Decode_ops[':='], 'english', _elm_lang$core$Json_Decode$string),
 	A2(_elm_lang$core$Json_Decode_ops[':='], 'latin', _elm_lang$core$Json_Decode$string));
 var _user$project$ListFilter$herbListDecoder = _elm_lang$core$Json_Decode$array(_user$project$ListFilter$herbDateDecoder);
-var _user$project$ListFilter$Model = F5(
-	function (a, b, c, d, e) {
-		return {herbs: a, filterBy: b, message: c, url: d, offset: e};
+var _user$project$ListFilter$Model = F6(
+	function (a, b, c, d, e, f) {
+		return {herbs: a, herbsViewable: b, filterBy: c, message: d, url: e, offset: f};
 	});
 var _user$project$ListFilter$Offset = function (a) {
 	return {ctor: 'Offset', _0: a};
@@ -8978,18 +8978,45 @@ var _user$project$ListFilter$main = {
 				function (herbs) {
 					return A2(
 						_elm_lang$core$Json_Decode$andThen,
-						A2(_elm_lang$core$Json_Decode_ops[':='], 'message', _elm_lang$core$Json_Decode$string),
-						function (message) {
+						A2(
+							_elm_lang$core$Json_Decode_ops[':='],
+							'herbsViewable',
+							_elm_lang$core$Json_Decode$array(
+								A3(
+									_elm_lang$core$Json_Decode$tuple2,
+									F2(
+										function (x1, x2) {
+											return {ctor: '_Tuple2', _0: x1, _1: x2};
+										}),
+									_elm_lang$core$Json_Decode$int,
+									A2(
+										_elm_lang$core$Json_Decode$andThen,
+										A2(_elm_lang$core$Json_Decode_ops[':='], 'english', _elm_lang$core$Json_Decode$string),
+										function (english) {
+											return A2(
+												_elm_lang$core$Json_Decode$andThen,
+												A2(_elm_lang$core$Json_Decode_ops[':='], 'latin', _elm_lang$core$Json_Decode$string),
+												function (latin) {
+													return _elm_lang$core$Json_Decode$succeed(
+														{english: english, latin: latin});
+												});
+										})))),
+						function (herbsViewable) {
 							return A2(
 								_elm_lang$core$Json_Decode$andThen,
-								A2(_elm_lang$core$Json_Decode_ops[':='], 'offset', _elm_lang$core$Json_Decode$int),
-								function (offset) {
+								A2(_elm_lang$core$Json_Decode_ops[':='], 'message', _elm_lang$core$Json_Decode$string),
+								function (message) {
 									return A2(
 										_elm_lang$core$Json_Decode$andThen,
-										A2(_elm_lang$core$Json_Decode_ops[':='], 'url', _elm_lang$core$Json_Decode$string),
-										function (url) {
-											return _elm_lang$core$Json_Decode$succeed(
-												{filterBy: filterBy, herbs: herbs, message: message, offset: offset, url: url});
+										A2(_elm_lang$core$Json_Decode_ops[':='], 'offset', _elm_lang$core$Json_Decode$int),
+										function (offset) {
+											return A2(
+												_elm_lang$core$Json_Decode$andThen,
+												A2(_elm_lang$core$Json_Decode_ops[':='], 'url', _elm_lang$core$Json_Decode$string),
+												function (url) {
+													return _elm_lang$core$Json_Decode$succeed(
+														{filterBy: filterBy, herbs: herbs, herbsViewable: herbsViewable, message: message, offset: offset, url: url});
+												});
 										});
 								});
 						});
