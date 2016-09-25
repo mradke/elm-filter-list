@@ -93,9 +93,24 @@ view : Model -> Html Msg
 view model =
   let
     index = (model.offset // 80)
-    herbs = Array.indexedMap viewHerbDescription model.herbs
-    viewable = Array.slice index (index + 8) herbs
-      --  <| Array.filterMap (removeUnmatched <| String.toLower model.filterBy) model.herbs
+    herbs = Array.indexedMap viewHerbDescription
+      <| Array.fromList 
+      <| List.filterMap (removeUnmatched <| String.toLower model.filterBy) 
+      <| Array.toList model.herbs
+
+    start = \index ->
+      if (index - 100) > 0 then
+        index - 100
+      else
+        0
+
+    end = \index ->
+      if (index + 100) < ((Array.length herbs) - 1)  then
+        index + 100
+      else
+        (Array.length herbs) - 1
+
+    viewable = Array.slice (start index) (end index) herbs
   in
     div []
       [ text model.message
