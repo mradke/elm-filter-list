@@ -97,7 +97,7 @@ view model =
   in
     div []
       [ text model.message
-      , text (toString model.offset)
+      , text (toString (List.length model.herbs))
       , input [ class "filter-box", placeholder "Filter", onInput NewFilter ] []
       , div [ class "herblist-header" ] 
         [ span [] [ text "Product name" ]
