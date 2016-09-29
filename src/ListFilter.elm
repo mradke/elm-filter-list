@@ -30,7 +30,6 @@ type alias Model =
   , filterBy : String
   , message : String
   , url : String
-  , offset : Int
   }
 
 -- UPDATE
@@ -42,22 +41,25 @@ type Msg
   | FetchData
   | ErrorOccurred String
   | DataFetched (List HerbDescription)
-  | Offset Int
 
+{--
+  Update the application state
+--}
 update : Msg -> Model -> (Model, Cmd Msg)
 update msg model =
   case msg of
     NoOp ->
       (model, Cmd.none)
 
+    Init initModel ->
+      (initModel, Cmd.none)
+
+    -- sets a new filter value onInput from the view
     NewFilter inputValue ->
       let newModel = { model | filterBy = inputValue }
       in
         (newModel, Cmd.none)
 
-    Init initModel ->
-      (initModel, Cmd.none)
-    
     FetchData ->
       let newModel = { model | message = "Initiating fetch" }
       in
@@ -73,18 +75,10 @@ update msg model =
       in
         (newModel, Cmd.none)
 
-    Offset newOffset ->
-      let newModel = { model | offset = newOffset }
-      in
-        ( newModel, Cmd.none )
-
 -- SUBSCRIPTIONS
 
-port offset : ( Int -> msg ) -> Sub msg
-
 subscriptions : Model -> Sub Msg
-subscriptions model =
-  offset Offset
+subscriptions model = Sub.none
 
 -- VIEW
 
@@ -96,10 +90,8 @@ view model =
         <| List.filterMap (removeUnmatched <| String.toLower model.filterBy) model.herbs
   in
     div []
-      [ text model.message
-      , text (toString (List.length model.herbs))
-      , input [ class "filter-box", placeholder "Filter", onInput NewFilter ] []
-      , div [ class "herblist-header" ] 
+      [ input [ class "filter-box", placeholder "Filter", onInput NewFilter ] []
+      , div [ class "herblist-header" ]
         [ span [] [ text "Product name" ]
         , span [] [ text "Botanical name" ]
         ]
