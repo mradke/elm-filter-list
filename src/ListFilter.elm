@@ -42,9 +42,6 @@ type Msg
   | ErrorOccurred String
   | DataFetched (List HerbDescription)
 
-{--
-  Update the application state
---}
 update : Msg -> Model -> (Model, Cmd Msg)
 update msg model =
   case msg of
@@ -59,9 +56,10 @@ update msg model =
       let newModel = { model | filterBy = inputValue }
       in
         (newModel, Cmd.none)
-
+    
+    -- Handle https get requests
     FetchData ->
-      let newModel = { model | message = "Initiating fetch" }
+      let newModel = { model | message = "" }
       in
         (newModel, Cmd.none)
 
@@ -87,10 +85,11 @@ view model =
   let
     herbs =
       List.map viewHerbDescription
-        <| List.filterMap (removeUnmatched <| String.toLower model.filterBy) model.herbs
+        <| List.filterMap (removeUnmatched model.filterBy) model.herbs
   in
     div []
-      [ input [ class "filter-box", placeholder "Filter", onInput NewFilter ] []
+      [ showMessage model.message
+      , input [ class "filter-box", placeholder "Filter", onInput NewFilter ] []
       , div [ class "herblist-header" ]
         [ span [] [ text "Product name" ]
         , span [] [ text "Botanical name" ]
@@ -98,15 +97,23 @@ view model =
       , div [class "herblist"] herbs
       ]
 
+showMessage : String -> Html Msg
+showMessage message =
+  if String.isEmpty message then
+    text ""
+  else
+    div [class "herb-message"] [text message]    
+
 removeUnmatched : String -> HerbDescription -> Maybe HerbDescription
 removeUnmatched fltr desc =
   let
       latin = String.toLower desc.latin
       english = String.toLower desc.english
+      filter = String.toLower fltr
   in
-    if contains fltr latin then
+    if contains filter latin then
       Just desc
-    else if contains fltr english then
+    else if contains filter english then
       Just desc
     else
       Nothing
