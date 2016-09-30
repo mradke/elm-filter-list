@@ -21,8 +21,8 @@ main
 -- MODEL
 
 type alias HerbDescription =
-  { latin : String
-  , english : String
+  { botanicalname : String
+  , productname : String
   }
 
 type alias Model =
@@ -107,13 +107,13 @@ showMessage message =
 removeUnmatched : String -> HerbDescription -> Maybe HerbDescription
 removeUnmatched fltr desc =
   let
-      latin = String.toLower desc.latin
-      english = String.toLower desc.english
+      botanicalname = String.toLower desc.botanicalname
+      productname = String.toLower desc.productname
       filter = String.toLower fltr
   in
-    if contains filter latin then
+    if contains filter botanicalname then
       Just desc
-    else if contains filter english then
+    else if contains filter productname then
       Just desc
     else
       Nothing
@@ -121,8 +121,8 @@ removeUnmatched fltr desc =
 viewHerbDescription : HerbDescription -> Html Msg
 viewHerbDescription model =
   div [class "list-item"]
-    [ span [] [ text model.latin ]
-    , span [] [ text model.english ]
+    [ span [] [ text model.botanicalname ]
+    , span [] [ text model.productname ]
     ]
 
 -- HTTP CALL AND DECODERS
@@ -131,8 +131,8 @@ herbDateDecoder : Json.Decoder HerbDescription
 herbDateDecoder =
   Json.object2
     HerbDescription
-    ("english" := string)
-    ("latin" := string)
+    ("productname" := string)
+    ("botanicalname" := string)
 
 herbListDecoder : Json.Decoder (List HerbDescription)
 herbListDecoder =

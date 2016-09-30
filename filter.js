@@ -8719,7 +8719,7 @@ var _user$project$ListFilter$viewHerbDescription = function (model) {
 					[]),
 				_elm_lang$core$Native_List.fromArray(
 					[
-						_elm_lang$html$Html$text(model.latin)
+						_elm_lang$html$Html$text(model.botanicalname)
 					])),
 				A2(
 				_elm_lang$html$Html$span,
@@ -8727,16 +8727,16 @@ var _user$project$ListFilter$viewHerbDescription = function (model) {
 					[]),
 				_elm_lang$core$Native_List.fromArray(
 					[
-						_elm_lang$html$Html$text(model.english)
+						_elm_lang$html$Html$text(model.productname)
 					]))
 			]));
 };
 var _user$project$ListFilter$removeUnmatched = F2(
 	function (fltr, desc) {
 		var filter = _elm_lang$core$String$toLower(fltr);
-		var english = _elm_lang$core$String$toLower(desc.english);
-		var latin = _elm_lang$core$String$toLower(desc.latin);
-		return A2(_elm_lang$core$String$contains, filter, latin) ? _elm_lang$core$Maybe$Just(desc) : (A2(_elm_lang$core$String$contains, filter, english) ? _elm_lang$core$Maybe$Just(desc) : _elm_lang$core$Maybe$Nothing);
+		var productname = _elm_lang$core$String$toLower(desc.productname);
+		var botanicalname = _elm_lang$core$String$toLower(desc.botanicalname);
+		return A2(_elm_lang$core$String$contains, filter, botanicalname) ? _elm_lang$core$Maybe$Just(desc) : (A2(_elm_lang$core$String$contains, filter, productname) ? _elm_lang$core$Maybe$Just(desc) : _elm_lang$core$Maybe$Nothing);
 	});
 var _user$project$ListFilter$showMessage = function (message) {
 	return _elm_lang$core$String$isEmpty(message) ? _elm_lang$html$Html$text('') : A2(
@@ -8787,13 +8787,13 @@ var _user$project$ListFilter$update = F2(
 	});
 var _user$project$ListFilter$HerbDescription = F2(
 	function (a, b) {
-		return {latin: a, english: b};
+		return {botanicalname: a, productname: b};
 	});
 var _user$project$ListFilter$herbDateDecoder = A3(
 	_elm_lang$core$Json_Decode$object2,
 	_user$project$ListFilter$HerbDescription,
-	A2(_elm_lang$core$Json_Decode_ops[':='], 'english', _elm_lang$core$Json_Decode$string),
-	A2(_elm_lang$core$Json_Decode_ops[':='], 'latin', _elm_lang$core$Json_Decode$string));
+	A2(_elm_lang$core$Json_Decode_ops[':='], 'productname', _elm_lang$core$Json_Decode$string),
+	A2(_elm_lang$core$Json_Decode_ops[':='], 'botanicalname', _elm_lang$core$Json_Decode$string));
 var _user$project$ListFilter$herbListDecoder = _elm_lang$core$Json_Decode$list(_user$project$ListFilter$herbDateDecoder);
 var _user$project$ListFilter$Model = F4(
 	function (a, b, c, d) {
@@ -8907,14 +8907,14 @@ var _user$project$ListFilter$main = {
 					_elm_lang$core$Json_Decode$list(
 						A2(
 							_elm_lang$core$Json_Decode$andThen,
-							A2(_elm_lang$core$Json_Decode_ops[':='], 'english', _elm_lang$core$Json_Decode$string),
-							function (english) {
+							A2(_elm_lang$core$Json_Decode_ops[':='], 'botanicalname', _elm_lang$core$Json_Decode$string),
+							function (botanicalname) {
 								return A2(
 									_elm_lang$core$Json_Decode$andThen,
-									A2(_elm_lang$core$Json_Decode_ops[':='], 'latin', _elm_lang$core$Json_Decode$string),
-									function (latin) {
+									A2(_elm_lang$core$Json_Decode_ops[':='], 'productname', _elm_lang$core$Json_Decode$string),
+									function (productname) {
 										return _elm_lang$core$Json_Decode$succeed(
-											{english: english, latin: latin});
+											{botanicalname: botanicalname, productname: productname});
 									});
 							}))),
 				function (herbs) {
